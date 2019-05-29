@@ -3,7 +3,7 @@ module.exports = {
   description: `Blog posted about Java, JavaScript, Docker, k8s, Spring framework etc`,
   author: `[Seungdols]`,
   introduction: `I'm interested in talking to other developers. So, I write post in my blog.`,
-  siteUrl: `https://seungdols.netlify.com`, // Your blog site url
+  siteUrl: `https://seungdols.dev`, // Your blog site url
   social: {
     twitter: `seungdols`, // Your Twitter account
     github: `seungdols`, // Your GitHub account
@@ -11,7 +11,15 @@ module.exports = {
     facebook: ``, // Your Facebook account
   },
   icon: `content/assets/seungdols.png`, // Add your favicon
-  keywords: [`blog`, `seungdols`],
+  keywords: [
+    `blog`, 
+    `seungdols`,
+    `javascript`,
+    `java`,
+    `spring`,
+    `ansible`,
+    `k8s`
+  ],
   comment: {
     disqusShortName: 'seungdols', // Your disqus-short-name. check disqus.com.
     utterances: 'seingdols/seungdols.dev', // Your repository for archive comment
@@ -23,7 +31,7 @@ module.exports = {
     buyMeACoffeeId: 'seungdols',
   },
   share: {
-    facebookAppId: '', // Add facebookAppId for using facebook share feature v3.2
+    facebookAppId: '908635996149930', // Add facebookAppId for using facebook share feature v3.2
   },
   ga: 'UA-59104922-2', // Add your google analytics tranking ID
 }
