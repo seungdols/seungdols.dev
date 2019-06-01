@@ -2,6 +2,7 @@
 layout: post
 title: "5 Different Ways of Printing an Array"
 description: "Use Array of Java"
+date: "2016-05-05"
 tags: [java, array]
 category: "java"
 comments: true

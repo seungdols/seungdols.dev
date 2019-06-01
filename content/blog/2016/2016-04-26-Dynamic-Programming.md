@@ -2,6 +2,7 @@
 layout: post
 title:  "Dynamic Programming"
 description: "Dynamic Programming이 무엇인지 알아보자꾸나"
+date: "2016-04-26"
 category: "programming"
 tags: [dp, programming]
 comments: true

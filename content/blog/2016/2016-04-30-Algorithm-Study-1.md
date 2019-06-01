@@ -3,6 +3,7 @@ layout: post
 title: "Algorithm Study 1일차"
 description: "자료구조/알고리즘"
 tags: [Algorithm, study]
+date: "2016-04-30"
 category: "algorithm"
 comments: true
 ---
