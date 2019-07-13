@@ -44,9 +44,43 @@ all<T1>
 그런데, 인자 개수 제한이 맞았습니다. 
 
 그런데, 찾다보니 [Blubird](http://bluebirdjs.com/docs/getting-started.html)라는 라이브러리에서는 `iterable`로 구현을 하고 있습니다. 
+BlueBird에서는 API doc에서도 확인 할 수 있듯이 iterable입니다. 
 
-[@types/bluebird](https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/types/bluebird/index.d.ts#L570)
+[http://bluebirdjs.com/docs/api/promise.all.html](http://bluebirdjs.com/docs/api/promise.all.html)
 
-위 링크의 라인을 보시면, 알 수 있듯이 `iterable`로 구현하고 있습니다. 
+[
+
+Promise.all | bluebird
+
+← Back To API Reference Promise.all Promise.all(Iterable |Promise > input) -> Promise > This method is useful for when you want to wait for more than one promise to complete. Given an Iterable(arrays are Iterable), or a promise of an Iterable, which produc
+
+bluebirdjs.com
+
+
+
+](http://bluebirdjs.com/docs/api/promise.all.html)
+
+그러나, TypeScript에서 iterable인지는 직접 돌려봐야 알 것 같습니다. 
+
+[https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/types/bluebird/index.d.ts#L857](https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/types/bluebird/index.d.ts#L857)
+
+위의 부분이 정확한 실제 링크입니다. 다섯개까지는 동일한 구현이네요. 하지만, Types에도 아래와 같이 명시 되어 있습니다. 
+
+```typescript
+  /**
+   * Given an array, or a promise of an array, which contains promises (or a mix of promises and values) return a promise that is fulfilled when all the items in the array are fulfilled.
+   * The promise's fulfillment value is an array with fulfillment values at respective positions to the original array.
+   * If any promise in the array rejects, the returned promise is rejected with the rejection reason.
+   */
+  // TODO enable more overloads
+  // array with promises of different types
+  static all<T1, T2, T3, T4, T5>(values: [Resolvable<T1>, Resolvable<T2>, Resolvable<T3>, Resolvable<T4>, Resolvable<T5>]): Bluebird<[T1, T2, T3, T4, T5]>;
+  static all<T1, T2, T3, T4>(values: [Resolvable<T1>, Resolvable<T2>, Resolvable<T3>, Resolvable<T4>]): Bluebird<[T1, T2, T3, T4]>;
+  static all<T1, T2, T3>(values: [Resolvable<T1>, Resolvable<T2>, Resolvable<T3>]): Bluebird<[T1, T2, T3]>;
+  static all<T1, T2>(values: [Resolvable<T1>, Resolvable<T2>]): Bluebird<[T1, T2]>;
+  static all<T1>(values: [Resolvable<T1>]): Bluebird<[T1]>;
+  // array with values
+static all<R>(values: Resolvable<Iterable<Resolvable<R>>>): Bluebird<R[]>;
+```
 
 생각해보면, 왜 10개로 제한 했는지는 알 수 없다. 이건 MS에서 TS 개발자들이 생각하기에 성능 이슈를 판단해 10개로 제한 한 것인지는 모르지만, 표준 JS 스택을 지키지 않는건 문제가 있다고 생각한다.
