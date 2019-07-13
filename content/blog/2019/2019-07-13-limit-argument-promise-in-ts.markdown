@@ -6,6 +6,7 @@ date: 2019-07-13 09:41:00
 category: typescript
 tags: [typescript, programming]
 comments: true
+---
 
 # Promise.xxx는 인자의 수 제한이 있다? 
 
