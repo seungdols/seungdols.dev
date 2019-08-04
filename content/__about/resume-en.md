@@ -8,7 +8,7 @@ lang: 'en'
 
 <div align="center">
 
-I'm SeungHo Choi but I use `seungdols` of nick-name. I love that study language, framework, and then programming. I like Java, JavaScript, Ruby, Python etc. 
+I'm SeungHo Choi but I use `seungdols` of nick-name. I love that study language, framework, and then programming. I like `Java`, `JavaScript`, `Ruby`, `Python` `Kotlin` etc. 
 
 Now days, I interested in `Go` language and `k8s` (container), IaC(Insfastructure as Code), `ansible`, `unit test`, `documentation`. 
 One more thing, I love happy hour other developers.
