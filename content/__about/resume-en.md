@@ -10,7 +10,7 @@ lang: 'en'
 
 I'm SeungHo Choi but I use `seungdols` of nick-name. I love that study language, framework, and then programming. I like `Java`, `JavaScript`, `Ruby`, `Python` `Kotlin` etc.
 
-Now days, I interested in `Go` language and `k8s` (container), IaC(Insfastructure as Code), `ansible`, `unit test`, `documentation`.
+Nowadays, I interested in `Go` language and `k8s` (container), IaC(Infrastructure as Code), `ansible`, `unit test`, `documentation`.
 One more thing, I love happy hour other developers.
 
 </div>
@@ -24,14 +24,14 @@ One more thing, I love happy hour other developers.
 
 # 💼 Work Experiences
 
-## Naver Corperation
+## Naver Corporation
 
-|                 |                                                                                                    |
-| --------------: | -------------------------------------------------------------------------------------------------- |
-|      **Period** | 2016.09 ~ current                                                                                  |
-|    **Position** | Full-stack Engineer                                                                                |
-| **Description** | Develop web and API of Shopping Search page and Catalog services at Shopping Search team.          |
-|    **Projects** | reorganization of catalog (PC, Mobile), from legacy(Java, Spring WebMVC) to Node.js(koa) and React |
+|                 |                                                                                                                |
+| --------------: | -------------------------------------------------------------------------------------------------------------- |
+|      **Period** | 2016.09 ~ current                                                                                              |
+|    **Position** | Full-stack Engineer                                                                                            |
+| **Description** | Develop web and API of Shopping Search page and Catalog services at Shopping Search team.                      |
+|    **Projects** | reorganization of the catalog (PC, Mobile), migrate from legacy(Java, Spring WebMVC) to Node.js(koa) and React |
 
 |              |                                |
 | -----------: | ------------------------------ |
