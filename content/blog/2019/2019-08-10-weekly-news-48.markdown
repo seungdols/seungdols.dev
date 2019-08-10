@@ -36,7 +36,7 @@ comments: true
 
 ['When to useMemo and useCallback' 를 읽고](https://rinae.dev/posts/review-when-to-usememo-and-usecallback)
 
-  - 요즘 들어 느끼는 것이지만, `useMemo`와 `useCallback`을 언제 써야 하는지에 대한 고민은 항상 들게 된다. 이 글을 읽고나면 어느 정도 감이 오긴 온다. 그래서 무언가 자신만의 기준을 두는 것이 좋다고 생각이 되었다.
+  - 요즘 들어 느끼는 것이지만, `useMemo`와 `useCallback`을 언제 써야 하는지에 대한 고민은 항상 된다. 이 글을 읽고나면 어느 정도 감이 오긴 온다. 그래서 무언가 자신만의 기준을 두는 것이 좋다고 생각이 되었다.
 
 [[번역] GraphQL은 어떻게 Redux를 대체하는가](https://medium.com/@minsangk/%EB%B2%88%EC%97%AD-graphql%EC%9D%80-%EC%96%B4%EB%96%BB%EA%B2%8C-redux%EB%A5%BC-%EB%8C%80%EC%B2%B4%ED%95%98%EB%8A%94%EA%B0%80-81548967697)
 
@@ -56,7 +56,7 @@ comments: true
 
 [JavaScript 비동기 처리를 위한 promise 이해하기](https://velog.io/@cyranocoding/2019-08-02-1808-%EC%9E%91%EC%84%B1%EB%90%A8-5hjytwqpqj)
 
-  - `Promise`를 제대로 이해 하지 못한다면, async / await를 잘 못 사용하게 될 가능성이 높다. 그래서 `Promise`를 잘 이해하는 것이 비동기 처리를 잘 할 수 있는 기본이라고 생각하는데, 해당 기본에 대해 잘 정리 된 글이다.
+  - `Promise`를 제대로 이해 하지 못한다면, `async / await`를 잘 못 사용하게 될 가능성이 높다. 그래서 `Promise`를 잘 이해하는 것이 비동기 처리를 잘 할 수 있는 기본이라고 생각하는데, 해당 기본에 대해 잘 정리 된 글이다.
 
 [TypeScript Deep Dive](https://basarat.gitbooks.io/typescript/content/)
 
