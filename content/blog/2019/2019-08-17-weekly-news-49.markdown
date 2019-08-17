@@ -1,0 +1,109 @@
+---
+layout: post
+title: "그냥 저냥 #위클리뉴스 #49"
+description: "그냥 저냥 #위클리뉴스 #49"
+date: 2019-08-17 15:01:00
+category: weekly-news
+tags: [weekly-news, programming]
+comments: true
+---
+
+### JavaScript
+
+[Nuxt에서 TypeScript로 개발하기](https://chodragon9.github.io//blog/nuxt-ts/)
+
+- `Nuxt`에서 `TypeScript`를 이용해 개발 하는 것에 대한 소개이다. `TypeScript`는 사실 `Angular` 진영에서만 필수이다. `React`, `Vue`쪽에서 개발 하는 때에는 그냥 `JS`를 가지고 개발 해도 아무 상관 없다. 그렇지만, 생산성이 조금 다르다. 타입 제약이 생겨 초반에는 생산성이 저하 되는 느낌이지만, 실행 전에 에러를 잡을 수 있는 만큼 잡는 것은 전체 생산성을 높여 준다고 생각 한다....꼭 쓰는 게 좋다..(물론, 아직 완전 하진 않다.)
+
+[I wrote a customizable CSS engine in JavaScript](https://medium.com/the-guild/i-wrote-a-customizable-css-engine-in-javascript-b1e05c8914fe)
+
+- `JavaScript`를 이용해 `CSS` 엔진(`CSS` 파서라고 해야할지..)을 만든 글이다. 어떤 구조로 만들게 되었는지 설명 되어 있다. 여러 관점에서 생각하는 자세라고 해야 할까? 그런 점이 부러웠고, 중요한건 일단, 무엇인가 만든다는 점에서 박수를 치고 싶다.
+
+[로우 레벨로 살펴보는 Node.js 이벤트 루프](https://evan-moon.github.io/2019/08/01/nodejs-event-loop-workflow/index.html)
+
+- 실제 이벤트 루프의 동작 원리에 대해 설명하는 글이다. 이 글은 번역글인데, 어떤 한국 개발자분이 직접 코드를 해석해서 설명 한 글도 찾아보면 나오는데, 두 글을 비교하면서 읽어보면 좋겠다. 사실 이해하기는 쉽지 않다. 얼핏 생각해보면, **이벤트 루프**라는게 엄청나게 추상화가 잘 되어 있다는 사실 하나와 `OS`의 느낌을 받게 되는데, 기분탓인지 제대로 이해를 못한 탓인지 애매하다.
+
+[r/programming - Why is the result of ('b'+'a'+ + 'a' + 'a').toLowerCase() 'banana'?](https://www.reddit.com/r/programming/comments/crapxd/why_is_the_result_of_ba_a_atolowercase_banana/)
+
+- 아주 재미난 글인데, 흥미롭게 읽어 보았다. 언어 특성을 이용한 유희?라고 생각하면 된다. (프로그래밍계 언어유희)
+
+[자동등록방지를 위해 보안절차를 거치고 있습니다.](https://huns.me/development/2306)
+
+- `huns`님의 `Express.js` 서버는 왜 `304`를 반환 할까?에 대한 글인데, 일목요연하게 정리가 되어있고, `Etag`를 생성하지 않도록 하는 방법도 소개 하고 있다.
+
+### React
+
+[Create a Custom useModal() React Hook](https://medium.com/better-programming/create-a-custom-usemodal-react-hook-449b5909cc09)
+
+- `React Hook`을 쓰다 보면, 좋은 `Hook` 모음을 보고 싶을 때가 있는데, `Modal`에 관한 `Hook`이다. 직접 가져와서 사용해도 좋고, 자신만의 특수성을 추가해 변형해서 사용해도 좋을 것 같고, `Custom hook`만드는 데에도 실제 코드를 보다 보면 도움이 되지 않을까? 생각 했다.
+
+[How Does the Development Mode Work?](https://overreacted.io/how-does-the-development-mode-work/)
+
+- `Development / Production Mode`의 작동에 관한 고찰과 같은데, 아마 신선한 방법을 우리에게 또 전해주지 않을까? 다음 글이 기대가 되는 문제 제기에 대한 글이다. 읽다 보면, JavaScript 생태계 역사도 간혹 나오는데, 이해하기 어려웠다.
+
+### 개발자에게 도움이 되는
+
+[5주간 개발자 영어 스터디 참여한 후기 (feat.WWCode Seoul)](https://thecommelier.tistory.com/17)
+
+- 개발자끼리 모여 **영어 스터디**를 참여 하고, 해당 스터디에 대한 회고 글이다. 참 좋은 부분은 마지막 결에 해당하는 부분인데, 내가 말하는게 틀리면 어쩌지? 라는 두려움에서 벗어나 **"나는 한국인인데 영어도 쓸 줄 안다."**라는 ****마인드로 변화 한 부분이 제일 좋다고 생각 한다. 나도 트위터에서 스터디가 모집 되면, 공부를 좀 해봐야 겠다는 생각이 들었다. (모각코...?)
+
+[대규모 Kubernetes 클러스터 구축기 - LINE ENGINEERING](https://engineering.linecorp.com/ko/blog/building-large-kubernetes-cluster/)
+
+- 요즘의 대세이자 앞으로의 서버 운용을 바꾸는 기술이 바로 `kubernetes`이다. 생각해보면, `VM`이 훨씬 더 고급 기술이 아닌가? 생각을 하지만, `VM`의 경우 고급 기술이긴 하지만, 사용성에 제약이 있다. `OS` 레벨까지 패키징을 해야 하는 이슈가 있다. 그리고 무엇보다 느리다. 트래픽이 급증 할 때, 빠르게 확장 하여 대응을 해야 하는데, 이슈가 있기 때문이다. 그래서 나온 `Docker`에 이어 수 많은 컨테이너를 관리 하기 위한 쿠버네티스이다. 확실히 중요한건, 배워 놓는다면 써먹을 곳이 정말 많다고 생각 한다.
+
+[기술 뉴스 #132 : 19-08-15 :: Outsider's Dev Story](https://blog.outsider.ne.kr/1456)
+
+- 기술 뉴스에 좋은 내용이 많았는데, 아래 두 링크 또한 여기 기술 뉴스에 있는 글이었다. `outsider`님의 기술 뉴스를 읽고 뭔가 지식의 지평이 넓어진다고 해야 할까? 내가 정리한 것보다 훨씬 더 많은 분야의 글을 읽고 정리 해 주신다.
+
+[좋은 git commit 메시지를 위한 영어 사전](https://blog.ull.im/engineering/2019/03/10/logs-on-git.html)
+
+- 이 글은 정말 너무 좋아서 가져 왔는데, 이 `git commit` 메시지를 위한 영어 사전은 정말 참고하기 너무 좋다. 아예 외워서 써먹으면 좋겠다 싶었다.
+
+[How I side project.ink](https://dotink.co/posts/how-i-side-project/)
+
+- 사이드 프로젝트에 대한 이야기인데, 상당히 자세하게 쓰여져 있으며, 어떻게 시도를 했고, 어떤 생각으로 진행 했는지 사이드 프로젝트에 대해 자세하게 써 있다. 중요한 건, 하고 싶을 때 하고, 하기 싫을 때는 중단 했다가 다시 실행 하는 것이 아닐까? 생각 하게 되었다.
+
+[데이터를 보는 사람에게 추천하는 교양서](https://cojette.github.io/bookfordatauser/)
+
+- 꼬젯님의 데이터를 주로 보는 사람들이 읽으면 하는 추천서적이다. 꼬젯님의 추천 도서는 여러 사람들에게 인기가 있는 편이니 읽어보면 좋은 부분이 있을 것이라 생각 한다. (그래서 **팩트풀니스** 주문....했다.)
+
+[[B급 프로그래머] 8월 2주 소식(빅데이터/인공지능, 암호화폐/블록체인, 읽을거리 부문)](http://jhrogue.blogspot.com/2019/08/b-8-2.html)
+
+- 이번 주는 빅데이터와 인공지능이 주를 이루는 글타래가 많았다. 그 중에서 **바보야, 데이터가 문제야**라는 기사가 참 흥미롭기도 하면서 항상 내가 말하는 원인의 핵심이였다. 다른 재밌고, 중요한 글들이 많은데, 많아 다 보지는 못했다.
+
+[그래픽 시스템을 만들자 -1-](https://www.bsidesoft.com/8071)
+
+[그래픽 시스템을 만들자 -2-](https://www.bsidesoft.com/?p=8099)
+
+- `Hika`님의 글이나 영상을 좋아하는 이유가 이해하기 쉽게 설명해 주신 다는 점이다. 사람에 따라 쉬울 수도, 어려울 수도 있지만, 읽어보면 언젠가 이해하는 날이 오지 않을까? 그래픽 시스템에 관해선 나는 사실 별 지식이 없지만, 이렇게 읽다 보니 이미 알고 있는 지식이 조금씩 있어서 신기 했다. 결국은 혜안이 있는 자가 눈높이에 맞게 설명을 한다는 말이 사실이다.
+
+[내 맘대로 위클리 뉴스 - 2019년 33주(2019.8.4 - 2019.8.10)](https://www.sangkon.com/sigamdream_weekly_2019_33/)
+
+- `JVM(Java)`, `Python`, `JavaScript`에 관한 내용이 각각 있고, 읽어보면 좋다. 특히, Node.js가 이벤트를 처리 하는 방식에 대한 기사는 두고 두고 읽어보면 좋다고 생각 한다.
+
+### Kubernetes
+
+[jamiehannaford/what-happens-when-k8s](https://github.com/jamiehannaford/what-happens-when-k8s)
+
+- `kubernetes` 에서 어떤 일들이 벌어지고, 어떤 녀석?!들이 동작 하는지에 대해 궁금하다면, 읽어보면 좋겠다. 읽는 중인데, 상당히 자세하게 쓰여져 있고, 좋은 내용이 많아서 참고 하기 좋다. 혹은 목차 별로 필요한 부분만 먼저 읽는 방법도 도움이 된다.
+
+### Ansible
+
+[1. Ansible (앤서블) 로 전체 서버 사용자 추가하기 - 호스트 연결하기](https://jojoldu.tistory.com/432?category=777282)
+
+[2. Ansible (앤서블) 로 전체 서버 계정 추가하기 - CLI로 계정 추가하기](https://jojoldu.tistory.com/433?category=777282)
+
+[3. Ansible (앤서블) 로 전체 서버 사용자 추가하기 - 플레이북으로 개선하기](https://jojoldu.tistory.com/438)
+
+- `Ansible`을 정말 좋아하지만, 나는 사내 시스템 제약에 맞게 사용하는 방법만 알고 있는데, 슬슬  AWS나 다른 환경에서 활용하는 방법을 공부 해봐야 같은데, 딱 시기 적절하게 `jojoldu(창천향로)`님이 정리를 해주셨다.
+
+### Test
+
+[와탭 블로그 | Selenium IDE와 Grid로 웹 애플리케이션 테스트 자동화](https://www.whatap.io/blog/39/?fbclid=IwAR1jTpgnitWwsv1odFnWLiQlZUplgji3vfjMNbWV7hjLRV40QSq4ErPm42Y)
+
+- `Selenium`을 직접 코드를 짜기는 쉽지 않은데, (할 수는 있지만 굳이...) 자동 녹화 툴들이 많은데, 해당 프로그램을 이용하면, 녹화 한 대상의 테스트가 코드로 변환되어 나오는데, 생각보다 이런 부분을 자동화 하면, 장애 상황이나, 페이지 오류를 빠르게 확인 할 수 있다.
+
+### 일반적인
+
+[나는 스타벅스를 좋아할 당신이 검소하게 살기를 바란다.](https://brunch.co.kr/@sandcocktail/77)
+
+- 은행원의 잔소리는 아니고 조언에 가까운 글이지만, 일련의 예시로 스타벅스에 투자하는 비용이 잦을 수록 생각보다 큰 지출이 된다는 의미이다. 결국, 고정비를 줄이는 방법이 제일 중요한 소비 습관이다. 역시 기본인가 보다.
