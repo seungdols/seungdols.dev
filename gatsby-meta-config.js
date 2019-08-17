@@ -21,8 +21,8 @@ module.exports = {
     `k8s`
   ],
   comment: {
-    disqusShortName: 'seungdols', // Your disqus-short-name. check disqus.com.
-    utterances: 'seingdols/seungdols.dev', // Your repository for archive comment
+    disqusShortName: '', // Your disqus-short-name. check disqus.com.
+    utterances: 'seungdols/seungdols.dev', // Your repository for archive comment
   },
   configs: {
     countOfInitialPost: 10, // Config your initial count of post
