@@ -1,0 +1,105 @@
+---
+layout: post
+title: "그냥 저냥 #위클리뉴스 #50"
+description: "그냥 저냥 #위클리뉴스 #50"
+date: 2019-08-24 15:59:00
+category: weekly-news
+tags: [weekly-news, programming]
+comments: true
+---
+
+### 개발자들에게 도움이 되는
+
+[Pycon kr 2019 keynote](https://www.lucypark.kr/docs/2019-pyconkr.pdf)
+
+- 네이버 파파고 `TL`이시면서 `KoNLPy`를 만들어 오픈소스로 공유하신 분이시다. 팀포퐁으로 활약하시던 시절부터 블로그를 통해 접하면서 많은 지식을 간접적으로 얻게 되었다. 이번 `PyCon 2019 Day1`의 키노트 연사로 발표를 진행하신 내용인데, 읽어보면 좋은 내용이 참 많다. 특히 가장 인상 깊은 단어는 ***아이디어는 working prototype으로 보여주세요.*** 라는 말인데, 참 많은 생각을 하게 되었다.
+
+[주니어, 미드레벨과 시니어 개발자의 차이점](https://medium.com/@erwinousy/%EC%A3%BC%EB%8B%88%EC%96%B4-%EB%AF%B8%EB%93%9C%EB%A0%88%EB%B2%A8%EA%B3%BC-%EC%8B%9C%EB%8B%88%EC%96%B4-%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%9D%98-%EC%B0%A8%EC%9D%B4%EC%A0%90-d29bffecfec)
+
+- 주니어 개발자와 미드 레벨 그리고 시니어 개발자 사이의 갭 차이를 설명하는데 일반적인 수준에서 정확하게 표현하고 있다고 생각 한다. 분명한 것은 사실, 이렇게 구분 짓지 않아도 된다는 생각을 가끔 하게 된다. 주니어든 미드레벨이든, 시니어든 같이 협업을 통해 시너지를 극대화 하는 방법이 중요하다. 얼만큼 융합을 잘 하는지가 제일 중요하다.
+
+[오픈소스 세계에 기여하는 개발자가 되어보자](https://blog.pigno.se/post/186143559253/%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EC%84%B8%EA%B3%84%EC%97%90-%EA%B8%B0%EC%97%AC%ED%95%98%EB%8A%94-%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B0%80-%EB%90%98%EC%96%B4%EB%B3%B4%EC%9E%90)
+
+- 어떻게 `오픈 소스 세계`에 기여 할 수 있을까? 를 고민 하는 사람이 있다면, 읽어 보길 추천한다.
+
+[클린 아키텍처 번역을 마치며... | Popit](https://www.popit.kr/%ED%81%B4%EB%A6%B0-%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98-%EB%B2%88%EC%97%AD%EC%9D%84-%EB%A7%88%EC%B9%98%EB%A9%B0/)
+
+- 요즘 `오브젝트` 이후로 핫한 책이 `클린 아키텍처`라는 책인데, 굉장한 내용이 담겨져 있다고 한다. 물론, 원서를 읽으면 저자의 어조와 느낌을 바로 이해할 수 있지만, 원서는 이해하기 쉽지 않다. 그래서 번역서를 보게 되는데, 번역이 잘 된 책이라고 많이 언급하셔서 리딩 리스트에 추가 했다.
+
+[PyCon 2019 스프린트 후기 :: Outsider's Dev Story](https://blog.outsider.ne.kr/1457)
+
+- 사실 스프린트란 느낌을 잘 몰랐는데, 명확하게 알게 된 계기의 글이다. `outsider`님은 `mocha`의 메인테이너로 스프린트에 참여 하시면서 느낀 부분을 후기로써 남겨 주셨다. 읽으면서 신기한 부분은 **"메인테이너더라도 모든 것을 알 수 없다."** 부분이었다. 생각해보니 아무리 오픈소스 메인테이너로 승격 된다 하더라도 자신이 만든 것이 아니고 다 같이 만든 부분이니 알 수 없겠구나..라는 생각을 했다. 결국 `꾸준함이 오픈소스 기여를 만들어 내는 것이 아닐까?` 라는 생각을 했다.
+
+[인턴이 되어 돌아오다](https://miryang.dev/2019/08/22/comeback/)
+
+- 구직 중이란 글을 올리시고, 제안을 받으신 뒤의 이야기인데, 인턴이 되셨다고 한다. - 축하 드립니다 :) 이 글을 읽으면서 `나도 벌써 만 3년차 개발자`가 되었다. 도대체 어떻게 하면 지속적인 학습 루틴, 나의 근본적인 니즈가 무엇일까?를 고민하는데, 비슷한 고민을 하는 구나. 생각이 들어 오랜만에 나의 인턴 시절을 되돌아 보게 되었다.
+
+[Clean Coder Blog](http://blog.cleancoder.com/uncle-bob/2019/08/22/WhyClojure.html)
+
+- 제목만 보고 사실 나중에 읽어 봐야지 하고 가져 왔다. `왜 클로저인가?` 라는 제목이라 무슨 내용 일지 궁금하다.
+
+[야놀자를 떠나며... (feat. 레저큐)](https://perfectacle.github.io/2019/08/23/exit-yanolja-feat-leisureq/)
+
+- `개발자의 이직기`인데, 굉장히 여러 회사에 지원하고, 절차 과정과 어디까지 합격을 했는지? 그리고 자신만의 강점이 무엇인지? 회고하는 부분이 참 좋았다.
+
+[[B급 프로그래머] 8월 3주 소식(개발/관리도구, 고성능 서버/데이터베이스 부문)](http://jhrogue.blogspot.com/2019/08/b-8-3.html)
+
+- `개발/관리 도구` 및 `서버/DB` 관련 주제별로 나뉘어 있는데, `Tech Interview Handbook` 링크가 굉장히 알차다. (알려 주셔서 감사합니다.)
+
+### Python
+
+[추천시스템 이제는 돈이 되어야 한다.](https://www.slideshare.net/ssuser2fe594/ss-164511610)
+
+- 카카오 웹툰에서 일 하는 분들이 어떻게 하면 추천 시스템을 이용해 개인에게 꼭 맞는 웹툰을 추천하고, 사람들이 좋아 할 만한 (유료)웹툰을 어떻게 추천하는지?에 대해 고민한 부분이 많이 녹아 있다.
+
+[Why is Python 3.7 fastest](https://speakerdeck.com/jungwinter/why-is-python-3-dot-7-fastest)
+
+- 왜 `파이썬 3.7`은 더 빨라졌는지?에 대한 발표인데, 잘 모르는 부분을 알고 싶어서 강제적으로 발표자로 나선 부분이 흥미롭기도 하고, (용기가 부럽다.) 중요한건, `C`로 다시 짜면 빨라지는 부분이 참 재밌기도 하다. 역시 성능은 `C`레벨인가? 싶기도 하다. 그렇지만 보면서 잘 모르는 내용이지만 재미 있었다. 특히나, 파이썬이 커뮤니티로 성장하는 모습이 재밌다고 생각 했다.
+
+### Web
+
+[Fast load times | web.dev](https://web.dev/fast)
+
+- `web.dev`에는 참 좋은 내용이 많은데, 이번에는 사용자가 이탈 하지 않도록 당신의 사이트를 빠르게 로드 될 수 있는 방법들을 소개하고 있다. 각 목차별로 중요하고, 내용도 짧막하게 정리가 잘 되어 있다. 틈틈히 읽어보면 훗날 성능 최적화나, 로드 타임 최적화에 도움이 되지 않을까?
+
+[웹 프레임워크 Svelte를 소개합니다.](https://velog.io/@ashnamuh/웹-프레임워크-Svelte를-소개합니다.-uejz0yuff5)
+
+- `Preact`와 `Svelte`는 `Google I/O`에서 웹 성능 관련 세션에서 처음 들었는데, 그 중 `Svelte`의 튜토리얼인데, 요즘 핫한 `Virtual DOM`을 사용하지 않고, 컴파일 타임에 최적의 성능을 내는 코드로 컴파일 해준다고 한다. 그런데, 의문은 컴파일러가 정말 성능이 좋아야 `Virtual DOM`을 능가하는 최적화 코드를 만들어 주지 않을까? 생각하게 되었다. 아마, 최근의 컴파일러의 성능이나 효율성 같은 최적화 부분에서 컴파일러 성능은 워낙 좋으니 사용하는게 큰 문제가 되지 않을 것 같기도 하다...(물론, 생각만 해보았다.)
+
+### JavaScript
+
+[goldbergyoni/nodebestpractices](https://github.com/goldbergyoni/nodebestpractices)
+
+- `Node.js`에 관한 글인데, 참 좋은 내용이 많은데 사실 나는 내가 작성 하는 코드가 잘 작성하는 것인지? 애매할 때가 있다. 사실, 그럴때는 이런 글을 보면 도움이 된다.
+
+[goldbergyoni/javascript-testing-best-practices](https://github.com/goldbergyoni/javascript-testing-best-practices/blob/master/readme.md)
+
+- `JavaScript`의 `Test`에 관한 `best practice` 방법을 소개 하는데, 내용이 상당하기 때문에 필요한 부분의 코드만 보거나, 코드만 쓱 보고 어떤 내용인지만 알고 지나가도 좋다.
+
+[Typescript가 두려운 당신에게](https://blog.scienceoflove.co.kr/why-typescript/?fbclid=IwAR3f6EJ5olTJRW7nan7YB-oF5b8mo0rRu4QIHmMerRr2Rj5-MtpESIYIOK4)
+
+- 사실 `TypeScript`는 타입 형 지원만 생각해도 `JavaScript` 개발에 있어서 생산성 향상을 준다. 이는 틀림 없는데, 깊은 문법을 사용하다 보면 문제는 팀원 모두가 해당 문법을 다 익혀야 한다. 그렇지만, 차근 차근 하나씩 써가며 익히는 방법도 좋다고 생각 한다.
+
+### DB
+
+[LINE Manga 데이터베이스 샤딩 - 데이터베이스 엔지니어 편 - LINE ENGINEERING](https://engineering.linecorp.com/ko/blog/line-manga-database/)
+
+- `MySQL`을 사용하면서 데이터베이스에 샤딩이 필요한 시점에 대한 부분이 담겨져 있다. 어떻게 운영을 하면서 샤딩을 하는지? 어떤 방법이 있는지 체크하고, 진행 하는 모습이 정말 자세하게 써 있다.
+
+### Java
+
+[Spring 5.2 와 Spring boot 2.2 추가된 Test 기능들](http://wonwoo.ml/index.php/post/2320)
+
+- 요즘은 스프링 프레임 워크를 실무에서 그 전보다는 덜 쓰고 있어서 많이 까먹고, `5.x`를 안쓰고 있지만, 그래도 무엇이 바뀌고 새로 추가 되었는지는 알아야 하기에 읽어 보게 되었다.
+
+### Git
+
+[Git 커맨드라인 환경에서 GUI 부럽지 않게 사용할 수 있는 몇가지 팁](http://www.mimul.com/pebble/default/2019/08/23/1566550403384.html)
+
+- `CLI`에서 `GUI` 못지 않게 사용할 수 있는 팁을 공유 해주셨는데, `fzf | peco`를 활용 하신 부분이 참신한데, 나는 왜 두 툴을 사용 중인데도 불구하고, 이런 생각을 못하는지 약간 좌절 하게 되었다. (애용해야겠다!!)
+
+### 일반적인
+
+[똑똑하게 일하는 사람들의 5가지 특징](https://ppss.kr/archives/201123)
+
+- 5가지를 가져야만 똑똑하게 일 하는 사람이 되는 것은 아니지만, 대부분 이런 점을 가지고 있더라...!라는 느낌으로 읽어 보면 좋다. 특히, `"함께 일 하는 사람에 대한 신뢰"`가 제일 중요하다고 생각 한다.
