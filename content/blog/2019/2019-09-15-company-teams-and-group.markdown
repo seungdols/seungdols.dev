@@ -8,7 +8,7 @@ tags: [performance, programming, thinking]
 comments: true
 ---
 
-요즘의 나는 이러한 생각을 하며 지내고 있다. 
+요즘의 저는 이러한 생각을 하며 지냅니다. 
 
 ### 협업 그리고 팀내 역할의 다양성
 
