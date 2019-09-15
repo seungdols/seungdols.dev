@@ -60,7 +60,7 @@ comments: true
 
 다른 개발자분의 블로그의 글을 보고 느끼는 바가 많고, 공감이 많이 생겼다. 
 
-[개발자가 조직문화에 대해 관심을 가져야 하는 이유](https://evan-moon.github.io/2019/08/06/developer-with-organizational-culture/**의 글을 읽고 나도 공감 많이 하게 되었다. 
+[개발자가 조직문화에 대해 관심을 가져야 하는 이유](https://evan-moon.github.io/2019/08/06/developer-with-organizational-culture)의 글을 읽고 나도 공감 많이 하게 되었다. 
 
 개발자는 왜 개발 문화를 만들어 가는데 관심이 없는가? 결국에는 내가 속한 팀에서 어떤 행복도가 소프트웨어 품질에도 영향을 미치고, 일정이나 다른 모든 것들에 영향을 끼친다고 생각 하는 편이다. 
 
