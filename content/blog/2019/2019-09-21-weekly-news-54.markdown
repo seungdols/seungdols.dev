@@ -1,0 +1,55 @@
+---
+layout: post
+title: "그냥 저냥 #위클리뉴스 #54"
+description: "그냥 저냥 #위클리뉴스 #54"
+date: 2019-09-21 17:31:00
+category: weekly-news
+tags: [weekly-news, programming]
+comments: true
+---
+
+### 개발자에게 도움이 되는
+
+[기술 뉴스 #134 : 19-09-15 :: Outsider's Dev Story](https://blog.outsider.ne.kr/1460)
+
+  - 여러 유익한 정보들의 축약이 되어 있는데, 양질의 글들을 잘 정리가 되어 있다. 그 중에서도 나는 `github`가 `rails 6.0`으로 `github`를 서비스 하는 글이 좋았다. 여전히 `rails`를 좋아하고, `github`라는 개발자의 소스 코드 집합소라는 관점에서 좀 다른 언어를 사용 하면 좋겠다 싶었는데, 여전히 `rails`라 좋다. (이유는 모르지만 `Java`, `Node.js`가 아니라서 안심이다.) 그리고 우아한 형제들의 `신입 개발자분의 파일럿 프로젝트 진행 경험기`가 좋았고, 나도 신입 때 이렇게 `step by step`으로 성장 할 수 있는 여건이 있었다면 좋았겠다. 라는 생각을 하게 되었다. (회사에서 안 해주면, 나 혼자라도 했어야 했는데.....)
+
+[내 맘대로 위클리 뉴스 - 2019년 38주(2019.9.07 - 2019.9.13)](https://www.sangkon.com/sigamdream_weekly_2019_38/)
+
+  - JavaScript에서 활용 하기 좋은 `Array.from`에 관한 글과 React 16의 best pratice를 소개 하는 글이 유익 했다.
+
+[설계의 중요성을 설명하기가 왜 어려웠을까?](https://huns.me/posts/2019-09-19-why-is-it-difficult-to-understand-the-importance-of-archictecture)
+
+  - **설계의 중요성이란 정말 많은 부분에 있어서 중요하다**는 생각을 하곤 한다. 다만, 단점은 우리가 흔하게 해보지 않은 것에 대해서 설계를 완벽하게 하기란 어렵다. 어느 정도 경험은 있어야 한다. 결국 쌓고 부수기의 반복 같다. 어쩌면, `설계의 중요성은 코드를 덜 부수기`에 해당 할 정도로 막강한 영향력을 행사하는 부분이다. 그래서 우리는 설계를 가능 한도 내의 튼튼하게 해야 하는 이유 아닐까 ? 그렇지만, 회사에서 이러한 부분을 얻기란 쉽지 않다. `나 혼자 일 하면 가능한 것들이 여러 사람과 여러 역할이 모일 때는 쉽지 않다.` 그리고 결국 어떤 이들의 설득을 하려면, 나의 영향력을 키워야 한다. 정말 그게 맞다는 것을 많이 느꼈다. (**오리지널스란** 책을 보면, 쉽게 이해 할 수 있다.)
+
+[컨플루언스 모바일 - SLiPP::위키](https://www.slipp.net/wiki/plugins/servlet/mobile?contentId=30772803#content/view/30772803)
+
+  - 카프카의 개념에 대한 정리 글입니다. 마지막 부분에는 `RabbitMQ`와 비교하는 벤치 마크 인용이 있습니다. 실무에서 `Kafka를` 정말 잘 쓰고 있기 때문에, 카프카 안 쓰는 서비스가 없다고 할 정도로 표준이라는 생각을 한다.
+
+### Java
+
+[JDK 13 둘러보기](https://johngrib.github.io/wiki/jdk13/)
+
+  - `JDK13`에 굵직한 기능에 대한 정리 글이다. `Switch Expression`이 `preview`에서 벗어나 정식으로 들어오면 좋겠다. `yield` 키워드가 들어오다니..신세계다. 나름 ZGC가 궁금하긴 한데, 실무에서는 아직 못 올리고 있다. (어떤 환장 파티가  생성 될지 아무도 모르기 때문에)
+
+### React
+
+[[React] 1. Development Environment Setup](https://jbee.io/react/[react]-1.-development-environment-setup/)
+
+[[React] 2. Redux Architecture](https://jbee.io/react/[react]-2.-redux-architecture/)
+
+[[React] 3. React Architecture](https://jbee.io/react/[react]-3.-react-architecture/)
+
+  - 시리즈로 연재 되는 `JBee`님의 글인데, `Front-End` 개발을 하는데 만약, `React`를 활용한다면, 이 글을 통해 하나의 가이드 라인을 제시 해주고 있다고 생각 한다. 물론, `JBee`님만의 특화된 상황이나 여건이 있을 수 있는 것들도 있다고 생각 한다. 그럼에도 불구하고, 위 글들은 **정말 많은 고민과 좋은 내용**이 많기에 무조건 추천하는 글이다. (없으면 만들어서 쓴다는 장인 정신 멋집니다.)
+
+### Kotlin
+
+[[kotlin] 바닥부터 배우는 코루틴 #1](https://www.bsidesoft.com/?p=8135)
+
+  - `Hika`님의 코루틴에 관한 이야기인데, 사실 읽어보면 알 수 있겠지만, `JS`를 통해 `Continuation`을 설명 하는 부분이나 `Java`의 `CompletableFuture`을 통한 설명으로 결국 `Continuation`,`CPS`, `Suspend`의 개념을 설명하면서 `Coroutine`을 설명 해주시는 글인데, 내게는 조금 어려웠다. 물론, 내가 요즘 공부를 너무 안한 탓도 있겠지만 말이다. 어쨌거나 `JS`의 `Asynchronous Iterators`도 사실 써본? 경험이 없기에 다소 생소 했고, `yield`를 더 더욱 써보지 않았다. 그래서 조금 어려웠는데, 여러번 읽어보니 이해가 조금은 되었다. 다들 꼭 읽어 보길 추천 한다. 글 하나에 정말 많은 지식이 담겨 있다.
+
+### 일반적인
+
+[AI 관련 토론 중 일론머스크 멘붕 온 이유. 미국과 중국의 대표 CEO 마윈과 엘론머스크 세기의 대담.](https://youtu.be/VCjkDF3lMbE)
+
+  - 심심하면 볼 만한데, 마윈은 정말 이미지 메이커구나 싶었다. A.I.에 아무것도 모르는 구나 싶은 생각이 들었고, 대담자로써는 좋은 태도를 지니고 있지 않다.
