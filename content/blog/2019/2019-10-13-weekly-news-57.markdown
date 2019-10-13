@@ -1,0 +1,117 @@
+---
+layout: post
+title: "그냥 저냥 #위클리뉴스 #57"
+description: "그냥 저냥 #위클리뉴스 #57"
+date: 2019-10-13 19:47:00
+category: weekly-news
+tags: [weekly-news, programming]
+comments: true
+---
+
+### 개발자에게 도움이 되는
+
+[2019년 중간 점검](https://item4.github.io/2019-10-03/2019-Intermediate-Inspection/)
+
+ - `item4`님의 중간 점검인데, 보통은 에세이 느낌으로 쓰거나 하는데, 이 분은 각 항목에 정량적인 평가를 위한 점수를 부여하며, 점검하는 모습이 인상적이었습니다.
+
+[내가 Toss를 탈퇴한 이유 - tebica story](https://earlybird.kr/2329)
+
+ - `Toss` 앱을 삭제하고, 탈퇴하는 이유에 대해 정리한 부분인데, 결국 어떤 서비스는 목적에 맞게 쓰는 것이 제일 좋은 생각이 든다. 그 목적이 사라지면, 사실 의미가 없다.
+
+[[B급 프로그래머] 10월 1주 소식(개발/관리도구, 고성능 서버/데이터베이스 부문)](http://jhrogue.blogspot.com/2019/10/b-10-1.html)
+
+ - `B급 프로그래머`님의 10월 1주 소식인데, 닉네임만 B급이고, 소식도 항상 A급이었는데....이제는 가끔 직접 쓰시는 글들이 건빵의 별사탕처럼 기다려진다.
+
+[내게 실용적이었던 프로그래밍 공부 방법들](https://ppss.kr/archives/204117)
+
+ - 학습 하는 방법이나 자신에게 좋았던 유투브 강의 혹은 싸이트들을 소개하고, 클론 코딩등을 공유 해주셨는데, 개발자를 꿈 꾸는 이들에게는 정말 좋은 자료라 생각 한다.
+
+[10 software development cults to join](https://www.infoworld.com/article/3440104/10-software-development-cults-to-join.html)
+
+[데코레이터 패턴(Decorator Pattern)](https://johngrib.github.io/wiki/decorator-pattern/)
+
+ - 데코레이터 패턴을 왜 사용하고, 왜 필요로 한지? 그리고 책들의 예제와 실제 `Java.io`를 소개 하며, 실제 예시를 통해 자세하게 설명한 글이다.
+
+[논문 읽기 - 대학원생 때 알았더라면 좋았을 것들](http://gradschoolstory.net/tag/%EB%85%BC%EB%AC%B8-%EC%9D%BD%EA%B8%B0/?fbclid=IwAR29a6-o_KCg-Ms1_7FCGMl_XjxWa12lSCu_-JTTOay6oZdbhkJ7xu5Jz0U)
+
+ - `논문 읽기에 관한 꿀팁`과 `논문의 형식`에 대해서 소개를 통해 논문 읽기가 그렇게 엄청나게 어려운 것은 아니라는 것을 소개 하고 있다.
+
+[개발자를 위한 OS X(>= Catalina) 설정](https://www.sangkon.com/osx-setting-for-developer/)
+
+ - `Mac 사용자`라면, `subicura`님의 맥 설정에 이은 `상곤님이 쓰신 이 글`을 통해 설정 해보면 어떨까? 뭐...각자 환경이 다르니, 직접 커스텀 해보는 재미도 있을 것 같은데, 잘 모르고 보편적인 설정을 하려고 한다면 한번쯤 따라하면 좋다.
+
+[[입 개발] redis-cli 에서 -rdb는 주의해서 사용하셔야 합니다.](https://charsyam.wordpress.com/2019/10/07/%ec%9e%85-%ea%b0%9c%eb%b0%9c-redis-cli-%ec%97%90%ec%84%9c-rdb%eb%8a%94-%ec%a3%bc%ec%9d%98%ed%95%b4%ec%84%9c-%ec%82%ac%ec%9a%a9%ed%95%98%ec%85%94%ec%95%bc-%ed%95%a9%eb%8b%88%eb%8b%a4/)
+
+ - `redis cli`에서 쓸 수 있는 옵션을 사용하다 발생한 오류에 대하여 소스 코드 레벨에서 설명해주신 글입니다.
+
+[널 오브젝트 패턴 (Null Object Pattern)](https://johngrib.github.io/wiki/null-object-pattern/)
+
+ - `기계인간님`께서 `널 오브젝트 패턴`에 대해 정리 하신 글입니다. 신입 개발자 시절에 본 `Null Object Pattern`을 이해 못했는데, 물론 지금도 정확히 이해하고 쓸 줄 아는 것은 아니지만, 확실히 적절하게 사용하면 `"좋은"` 느낌을 받게 된다.
+
+### JavaScript
+
+[[React] 커스텀해서 제어하기 :: 마이구미](https://mygumi.tistory.com/358)
+
+ - `form`과 같은 영역에서 뒤로 가기를 눌렀을 때의 상황처럼, 어떤 행위에 대한 페이지 이동을  막고 싶을 때가 있다. 그런 경우를 `네비게이션 가드`라고 한다고 한다. 그에 대한 글이다.
+
+[Improving V8 regular expressions](https://v8.dev/blog/regexp-tier-up)
+
+[2019-09-30: React 16.10.0, Node.js 12.11.0(worker_thread), 네트워크 요청과 UI 갱신의 경합(race)](https://jser.info/ko/2019/09/30/455draft/)
+
+ - 주요 **모듈들의 업데이트 정보** 및 `JS` 관련 아티클들이 수록 되어 있습니다.
+
+[React 전, 7가지 배경지식 다지기](https://medium.com/@codesquad_yoda/react-%EC%A0%84-7%EA%B0%80%EC%A7%80-%EB%B0%B0%EA%B2%BD%EC%A7%80%EC%8B%9D-%EB%8B%A4%EC%A7%80%EA%B8%B0-8ad72f7b6aac)
+
+ - `React`를 배우기 전에 `7가지`의 배경지식을 쌓아 보면 좋겠다는 의미로 글을 써 주셨지만, 제 생각에는 `크롱님`이 언급 해주신 그 `7가지`가 정말 중요한 프론트엔드 개발의 포인트 같다는 생각도 하게 되었습니다.
+
+[JavaScript Naming Conventions - RWieruch](https://www.robinwieruch.de/javascript-naming-conventions)
+
+ - `JavaScript`와 `React` 관련 포스팅을 많이 써주는 개발자로 유명한데, 이번에는 **네이밍**에 관해서 글을 써주었는데, 읽어보면 정말 좋다. (내가 왜 이렇게 썼을까? 하는 후회도 살짝 하게 된다.)
+
+[[번역] useEffect 완벽 가이드](https://rinae.dev/posts/a-complete-guide-to-useeffect-ko)
+
+ - `Dan Abramov`가 작성한 글을 `rinae`님이 번역 해주신 `useEffect 완벽 가이드` 글입니다. `리액트`를 이용해 개발을 하는 이라면, 꼭 읽어 보셨으면 합니다.
+
+### Java
+
+[Java Optional 바르게 쓰기]([http://homoefficio.github.io/2019/10/03/Java-Optional-바르게-쓰기/](http://homoefficio.github.io/2019/10/03/Java-Optional-%EB%B0%94%EB%A5%B4%EA%B2%8C-%EC%93%B0%EA%B8%B0/))
+
+ - 항상 궁금한 `Optional`을 잘 쓰는 방법이었는데, 딱 찾게 되었다. 이 글은 `Java`를 쓰신다면, 꼭 읽어 보길 바란다. 필요한 점만 콕콕 알맞게 설명이 되어 있다.
+
+[ZGC, The Z Garbage Collector](https://johngrib.github.io/wiki/java-gc-zgc/)
+
+ - `Java 11`에서부터  실험적으로 등장하게 된 `GC` 중에 하나인 `ZGC`인데, 정말 궁금한 내용이었는데, `기계인간님`께서 잘 정리 해주셨다.
+
+[String equalsIgnoreCase() Java Example](https://examples.javacodegeeks.com/string-equalsignorecase-java-example/)
+
+[A Programmer's Guide to Agile Implementation](https://www.javacodegeeks.com/2019/10/programmers-guide-agile-implementation.html)
+
+[System.out.println vs Loggers](https://www.baeldung.com/java-system-out-println-vs-loggers)
+
+ - 항상 습관적으로 `logger` 대신 `sout`이라는 단축키를 통해 `println`으로 값을 보거나 하는데, 대다수 사람들이 **왜 로거를 쓰라고 할까?** 에 대해 궁금하다면, 이 글을 보면 좋겠습니다.
+
+[What is null in Java](https://examples.javacodegeeks.com/what-is-null-in-java/)
+
+ - 도대체 `null`을 왜 쓸까? 생각하지만, `null`을 **프로젝트 레벨에서 완전히 걷어내는 것이 가능할까?**에 대한 궁금증이 좀 있다. 아무리 생각해도, 쉽진 않다. ;;;;
+
+[Graceful Shutdown of a Spring Boot Application | Baeldung](https://www.baeldung.com/spring-boot-graceful-shutdown)
+
+ - `Spring container`가 `termination` 되기 전, `setAwaitTerminationSeconds` 옵션으로 일정 시간을 두고, `connection`을 해제 하거나 하는 작업을 지정하여 `container`가 내려갈 즈음에는 외부 통신에 해당하는 모든 것들이 종료 된 이후이니, 안전하게 종료 할 수 있으니 설정 해 두면 이득이 될 수 있겠다 생각 한다.
+
+[[Java] forEach와 for each 의 차이점은?](https://namocom.tistory.com/754)
+
+ - 카페에 올라온 질문에 대한 `Java8`과 `iterable`이라는 인터페이스의 설명들을 토대로 질문자의 코드에 있는 `forEach`와 `for each`의 차이를 설명하고 있다.
+
+[Become a Master of Java Streams - Part 1: Creating Streams](https://www.javacodegeeks.com/2019/10/become-a-master-of-java-streams-creating-streams.html)
+
+ - `stream`을 잘 쓰려면, 결국 다른 사람들은 어떻게 `stream api`를 활용하는지 보면 좋은데, 각 소제목에 맞는 `stream` 사용에 관한 짧은 글이다.
+
+### 일반적인
+
+[회사에서 오래 버티는 사람들의 특징](https://ppss.kr/archives/204381)
+
+ - 이 글을 읽으면서 어느 면에서는 부합하는 게 있다가도, 아닌 것 같다가도...잘 모르겠다. 근데, 회사에서 오래 버티는 사람들은 `'버틴다'`라고 하지 않고, `'흘렀다'`라고 표현하지 않을까? 생각 한다.
+
+[스웨덴은 어떻게 강력한 '복지 정책'에도 '경제 성장'이 가능했을까?](https://ppss.kr/archives/204588)
+
+ - **경제학이니** 하는 것은 내게 항상 어렵지만, 재미 있는 주제이긴 하다. 어쩌다 읽게 된 글이지만, 마지막의 `초중등 교육은 중요하다`는 결이 내게는 큰 울림으로 다가왔다.
