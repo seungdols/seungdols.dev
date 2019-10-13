@@ -59,9 +59,13 @@ Ref: https://github.com/seungdols/stil
 
 This repository is a repository of what I have found while studying, and tips I have learned while working.
 
-# 💻 Activities
+# Activities
 
-## 🎤 Presentation
+## Presentation
+
+### Naver Showroom Meetup 
+
+- [Ctrl + c/v vs Ansible: IaC어쭙잖게 맛본 썰](https://www.slideshare.net/ShoppingNAVER/iac-ctrl-cv-vs-ansible-177579401): Share the experience `IaC` (with Ansible)
 
 ### Django Girls December Meetup
 
