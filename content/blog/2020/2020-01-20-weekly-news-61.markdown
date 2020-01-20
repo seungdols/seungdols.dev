@@ -1,0 +1,79 @@
+---
+layout: post
+title: "그냥 저냥 #위클리뉴스 #61"
+description: "그냥 저냥 #위클리뉴스 #61"
+date: 2020-01-20 10:35:00
+category: weekly-news
+tags: [weekly-news, programming]
+comments: true
+---
+
+### 개발자에게 좋은 내용
+
+[내 맘대로 위클리 뉴스 - 2020년 02주(2020.01.05 - 2020.01.11)](https://www.sangkon.com/sigamdream_weekly_2020_02/)
+
+- `Node.js`에서의 메모리 누수 추적 하는 방법을 소개하는 글, `Java`에서 메모리 누수의 일반적인 원인과 감지 하는 글이 가장 나에게는 도움이 되었다.
+
+[[B급 프로그래머] 1월 3주 소식(빅데이터/인공지능, 읽을거리 부문)](http://jhrogue.blogspot.com/2020/01/b-1-3.html)
+
+- 이 글을 읽고 나니, 신문 구독률이 최저가 되는 시대가 되었구나라는 새삼스런 깨달음과 함께 구글 크롬에서는 `User-agent, 제 3자 쿠키 지원 중단`을 발표 했던 글들을 포함한 유용한 글 묶음.
+
+[nginx no live upstream 에러 이해하기](https://brunch.co.kr/@alden/58)
+
+- 정말 간과하기 쉬운 부분 일 수 있지만, 잘못하면 엄청난 장애를 유발 시키기도 하는 에러이다. `max_fails, fail_timeout`을 기억 해야겠다. 그리고 실제 업무에서 사용하는 환경설정을 좀 확인 하는 시간을 가져야겠다.
+
+[2019년 개발자스럽다 회고](https://blog.gaerae.com/2019/12/retrospective.html)
+
+- 꾸준히 어떤 서비스를 유지한다는 것은 쉽지 않은데, `4년간 유지` 하셨다는 게 엄청난 노력이 있다고 생각 했다.
+
+[프로그래머를 지탱하는 3가지 성분](https://speakerdeck.com/totuworld/peurogeuraemeoreul-jitaenghaneun-3gaji-seongbun?slide=106)
+
+- 어떻게 보면, 지난 발자취의 회고 같지만 읽다 보니 `선배 개발자가 후배 개발자에게 할 수 있는 조언`이 아닐까?라는 생각이 들었다.
+
+### Java
+
+[스프링 부트로 멀티모듈 셋팅하기](https://taetaetae.github.io/2020/01/19/spring-boot-maven-multi-module/)
+
+- 멀티 모듈이 추세인 시대가 된 느낌을 많이 받는데, 요즘의 트렌드이다. 과거에는 모놀리틱 아키텍처였다면, 이제는 `MSA`를 추구하는 시대이다. 보니, 경량화 하고, 응집도가 가능하다면, 모듈로 구성하는 것이 방법이다. 그런데, 미리 다 할 필요는 없다고 생각 한다. 멀티 모듈로 구성하는 방법에 대해 정말 자세하게 예제코드로 설명을 해주셨다. `Maven`으로 구성 해주셨는데, `Gradle`로 변경해도 좋지 않을까? 싶기도 하다.
+
+### React
+
+[Goodbye, Clean Code](https://overreacted.io/goodbye-clean-code/)
+
+- 정말 좋은 글이라고 자부할 수 있는데, 팀 협업이란 포인트로 성장하는 글이기도 하고, 자신의 실수를 수 많은 이들에게 공유 할 수 있는 점 자체가 놀라운 사람이라고 생각 한다. `"Let clean code guide you. Then let it go."` 좋은 말이구나.
+
+[My Decade in Review](https://overreacted.io/my-decade-in-review/)
+
+- 10년의 회고록인데, 착각한건 `Dan`이 러시아 사람이라는걸 처음 알았다..:-)
+
+[What Are the React Team Principles?](https://overreacted.io/what-are-the-react-team-principles/)
+
+- `React Team`의 생각을 알 수 있었던 이야기이고, 읽어보면 도움이 많이 되는데, 확실히 플랫폼을 만드는 조직은 생각하는 바가 다름을 느꼈다.
+
+[On let vs const](https://overreacted.io/on-let-vs-const/)
+
+- `let과 const` 둘 사이에 무엇을 더 쓰면 좋을까? 고민한 적이 거의 없었는데, 이 글을 보면서 많이 느끼게 되었다.
+
+[What Is JavaScript Made Of?](https://overreacted.io/what-is-javascript-made-of/)
+
+- `JavaScript`에 대한 설명이 있는 글입니다. 이미 아는 내용이라도 읽어 보시면, 좋습니다.
+
+[React Conditional Rendering - RWieruch](https://www.robinwieruch.de/conditional-rendering-react)
+
+- `object`로 만들어서 `[]`로 선택적 렌더링을 하는 부분은 참 좋은 것 같다. 생각해보니 `switch`를 진짜 많이 쓰긴 했는데, **항상 가독성이 별로라는 생각을 하게 된다.**
+
+### 일반적인
+
+['리디셀렉트'는 나의 새로운 독서 루틴으로 자리 잡을 수 있을까?](https://ppss.kr/archives/210612)
+
+- 리디 셀렉트 초기 모델에 써보고 이제는 잘 안쓰는데, 확실히 리디 서비스를 정말 잘 쓰고 있기 때문에 추후에는 결제를 해서 쓰게 되지 않을까? 하는 고민을. 이 글을 읽고 진지하게 하게 되었다.
+
+['마스터클래스'는 어떻게 사용자들을 사로잡았을까?](https://ppss.kr/archives/210144)
+
+[감정기복과 자기혐오에 대하여](https://ppss.kr/archives/210119)
+
+- 혹시라도, 요즘 그런 감정 기복이 심하거나 마음의 여유가 부족한 분들이 읽었으면 하는 기사이다.
+
+[상사가 되면 '하지 말자' 10가지 다짐](https://ppss.kr/archives/209948)
+
+- 상사가 아니더라도 알아야 하는 10가지의 조언이라고 생각 한다.
