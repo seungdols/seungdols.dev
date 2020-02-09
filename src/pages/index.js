@@ -102,11 +102,11 @@ export const pageQuery = graphql`
     }
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
-      filter: { frontmatter: { category: { ne: null } } }
+      filter: { frontmatter: { category: { ne: null }, draft: { eq: false } } }
     ) {
       edges {
         node {
-          excerpt
+          excerpt(pruneLength: 200, truncate: true)
           fields {
             slug
           }
@@ -114,6 +114,7 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             title
             category
+            draft
           }
         }
       }
