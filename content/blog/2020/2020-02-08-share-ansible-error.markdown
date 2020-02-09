@@ -36,7 +36,8 @@ release. Deprecation warnings can be disabled by setting deprecation_warnings=Fa
 
 단, ansible_user로 셋팅하면 동일하다. 그리고 ansible core 소스를 까봐도 동일하다. 
 
-4. ansible 요약 
+ansible 요약 
+
 * https://gist.github.com/andreicristianpetcu/b892338de279af9dac067891579cad7d
 
 ### typo error
