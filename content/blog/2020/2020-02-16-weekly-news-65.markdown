@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "그냥 저냥 #위클리뉴스 #64"
-description: "그냥 저냥 #위클리뉴스 #64"
+title: "그냥 저냥 #위클리뉴스 #65"
+description: "그냥 저냥 #위클리뉴스 #65"
 date: 2020-02-16 21:25:00
 category: weekly-news
 tags: [weekly-news, programming]
