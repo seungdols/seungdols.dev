@@ -32,7 +32,7 @@ comments: true
 
 [뉴모피즘은 새로운 UI 트렌드가 될 수 있을까?](https://brunch.co.kr/@cliche-cliche/32)
 
-- `[Flat Design](https://ppss.kr/archives/80638)`이나 `[Meterial Design](https://material.io/design/)`이 거의 디자인의 표준이 된 상황에서 `뉴모피즘 UI에 글로 이 글을 읽으면서, 나는 오히려 이 부분이 현대 웹페이지에서 보고 싶은 미래 지향 디자인 같았다. (내 느낌만...)`
+- [Flat Design](https://ppss.kr/archives/80638)이나 [Meterial Design](https://material.io/design/)이 거의 디자인의 표준이 된 상황에서 `뉴모피즘 UI에 글로 이 글을 읽으면서, 나는 오히려 이 부분이 현대 웹페이지에서 보고 싶은 미래 지향 디자인 같았다. (내 느낌만...)`
 
 [재택근무 10가지 프로 팁](https://brunch.co.kr/@svillustrated/69)
 
