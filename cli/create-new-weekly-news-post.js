@@ -29,8 +29,7 @@ const getNumberOfLastWeeklyNewsPost = () => {
 }
 
 const getTemplate = newNumberWeeklyNews => {
-  return `
----
+  return `---
 layout: post
 title: \"그냥 저냥 #위클리뉴스 #${newNumberWeeklyNews}\"
 description: \"그냥 저냥 #위클리뉴스 #${newNumberWeeklyNews}\"
