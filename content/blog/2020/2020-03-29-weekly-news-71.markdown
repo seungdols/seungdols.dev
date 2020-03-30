@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: "그냥 저냥 #위클리뉴스 #71"
