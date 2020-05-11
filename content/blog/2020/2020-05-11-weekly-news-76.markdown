@@ -1,0 +1,57 @@
+---
+layout: post
+title: "그냥 저냥 #위클리뉴스 #76"
+description: "그냥 저냥 #위클리뉴스 #76"
+date: 2020-05-11 10:05:22
+category: weekly-news
+tags: [weekly-news, programming]
+comments: true
+---
+  
+### 💻개발자에게 도움이 되는
+
+[naver/fe-news](https://github.com/naver/fe-news/blob/master/issues/2020-05.md)
+
+- `Naver 개발자들이 한달 간의 주요 글들을 큐레이션` 하고 있는데, 이번 달은 `PR의 Best practice`에 대한 글이 좋았다.
+
+[리팩터링에 대한 단상](https://huns.me/posts/2020-05-06-36)
+
+- 리팩토링 2판을 읽고 느낀 리팩토링에 대한 개인의 생각인데, 정말 좋은 말이 본문에 있었는데, `"필요한 순간에 필요한 리팩토링을 한다."` 이 말이 리팩토링에 대한 설명으로는 끝인 것 같다.
+
+[Looking Back on Four Years at The Times](https://medium.com/swlh/looking-back-on-four-years-at-the-times-e158ec3a5936)
+
+- `타임즈 CTO로 4년간 일 했던 회고록`인데, 정말 좋은 내용이 많고 되게 사람이 겸손하구나?! 싶은 느낌을 많이 받았다. `**서비스는 4년여 동안 100만에서 500만의 구독자로 성장하게 되었고, 여러 시스템들의 개편과 주요 기술들 도입, 클라우드로의 이전등 다채로운 경험**`들이 많았는데, 그 부분을 잘 설명 해주고, 평가에 대한 부분, 문화도 빼놓지 않고, 기술 해주셨다.
+
+[await의 함정, 숨은 병목을 찾자](https://jaeheon.kr/161)
+
+- `await의 순서`, 혹은 `Promise.all`을 통한 응답 지연을 최소화 하는 것에 대해 소개 하고 있다.
+
+[The Best Medium-Hard Data Analyst SQL Interview Questions](https://quip.com/2gwZArKuWk7W)
+
+- 데이터 분석가의 `SQL` 인터뷰 질문 모음이다.  (개발자가 보아도 도움이 많이 될 것 같은데, 영어라 나름 시간이 좀 오래 걸릴 것 같고, 영어 공부는 덤으로 된다.)
+
+[hmmhmmhm/how-to-using-sign-with-apple-js](https://github.com/hmmhmmhm/how-to-using-sign-with-apple-js)
+
+- `JavaScript로 애플 로그인을 구현 할 때`의 이슈와 상황들을 잘 정리 해 주신 글이다. Server/Client를 나누어서 구체적으로 설명하고 있다.
+
+[CSS 팁: 팝업창을 멋지게 만드는 너무 간단한 방법](https://taegon.kim/archives/10088)
+
+- 팝업창을 정말 쉽게 만드는 방법인데, `backdrop-filter`을 이용한다. 너무 쉽게 가능해서 놀라운 수준....
+
+### 👍🏻일반적인
+
+[존경받는 리더들이 가진 커뮤니케이션 패턴 8가지](https://ppss.kr/archives/217174)
+
+- 핵심은 간결하고 명확한 커뮤니케이션 스킬에 있으며, 상호 존중 하는 태도가 드러난 다는 점이라는 생각이다. 앞서 말한 태도는 `모두의 의무이며, 필수이다.`
+
+[매일 10km씩 걸으면 살 빠져요?](https://ppss.kr/archives/217142)
+
+- 몸을 움직이는 것과 살 빼기는 당연하지 않다. 그러나, 스트레스 다이어트는 가능하다.
+
+[데이터 분석팀은 왜 비즈니스에서 중요한 역할을 하지 못하고 있을까?](https://ppss.kr/archives/217192)
+
+- 데이터 분석을 비즈니스 분석에 한정 하기 때문인 것 같다. 내 생각에는 IT서비스에서 바라는 데이터 분석과, 기획, 영업, 제휴등 비즈니스적인 관점에서의 데이터 분석이 다른 것 같다. `일단, BI에 의한 의사결정에 대한 프로세스 자체가 없다. 애초에 특정 결정 권자가 결정 드리븐으로 일을 진행 하는 경우가 많다.` 대다수는 아바타의 느낌을 지울 수 없을 것이다. 물론, 그들 각자가 일은 다 하고 있다. 그런데, 결정권은 문이 하나라 항상 더디게 진행 된다. 그러다 보니 데이터 분석에 대한 부분은 항상 뒤쳐지고, 항상 업데이트가 늦다. 항상 커뮤니케이션이 다를 수 밖에 없을 것 같다. `결국, 경험의 부재와 니즈의 부재가 제일 크지 않을까?`
+
+[더 나은 남편이 되기 위한 팁](https://ppss.kr/archives/217202)
+
+- 어려운 것은 없다. 그냥 대화 많이 하고, 상호 존중이 답이다.
