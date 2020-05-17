@@ -1,0 +1,56 @@
+---
+layout: post
+title: "그냥 저냥 #위클리뉴스 #77"
+description: "그냥 저냥 #위클리뉴스 #77"
+date: 2020-05-17 22:05:04
+category: weekly-news
+tags: [weekly-news, programming]
+comments: true
+---
+  
+
+### 🖥개발자에게 도움이 되는
+
+[해외개발자 _ 진짜 개발자가 하는 일 1](https://medium.com/@tpdms2779/%ED%95%B4%EC%99%B8%EA%B0%9C%EB%B0%9C%EC%9E%90-%EC%A7%84%EC%A7%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B0%80-%ED%95%98%EB%8A%94-%EC%9D%BC-1-59e96ad061e3)
+
+- `해외에서 일 하는 개발자의 경험기`인데, 결국 언어만 다르고 일 하는 방식은 같은 것 같다. 뭐... 회사마다 문화가 다른 것은 별개로 보도록 하자.
+
+[GraphQL을 오해하다](https://medium.com/@FourwingsY/graphql%EC%9D%84-%EC%98%A4%ED%95%B4%ED%95%98%EB%8B%A4-3216f404134)
+
+- `graphQL`을 쓰면서 겪은 경험기 글로, `JS`를 주로 쓰고 `graphQL`을 `JS`단에서 도입 하고자 하는 분들에게 도움이 많이 될 수 밖에 없는 글이다.
+
+[git add -patch의 e 옵션](https://jinhoooooou.github.io/til/git-add-patch-more-split-hunk/)
+
+- 커밋을 정말 `atomic`하게 쪼개어 작업을 해야 하는데, 그 부분을 `git add -p` 옵션을 쓰는데, 수동으로 더 쪼갤 수 있는 옵션이 있다는  것은 처음 알게 되었다. (알면서도 `git add -p`는 잘 안 쓰게 된다.)
+
+[DDD 했더니 비대해지는 엔티티, 좋은 대책은 ?](http://jaynewho.com/post/45)
+
+- `DDD`와 클린 아키텍처를 보다가 `Entity`가 너무 비대해지며, 개선하기 위해 적용한 방법을 소개하는데, `Bounded Context`로 `Entity`를 쪼개는 방식을 소개하고 있다.
+
+[gr을 이용한 많은 git 저장소 관리하기](https://medium.com/@changjoopark/gr%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EB%A7%8E%EC%9D%80-git-%EC%A0%80%EC%9E%A5%EC%86%8C-%EA%B4%80%EB%A6%AC%ED%95%98%EA%B8%B0-44c78ff667d2)
+
+- 여러 `Repository`에서 작업을 하는 사람이라면, 저장소를 한 번에, `pull`받고, `log`를 확인 하던 부분들을 하나의 명령으로 관리 할 수 있어서 좋다.
+
+[월간 개발자스럽다 #54](https://blog.gaerae.com/2020/05/monthly.html)
+
+- 다양한 주제의 글들이 모여 있는 월간 개발자스럽다 큐레이션이다. `도커나 컨테이너쪽 글`도 많기 때문에 항상 다양한 주제에서 도움이 많이 된다.
+
+[기술 뉴스 #150 : 20-05-15 :: Outsider's Dev Story](https://blog.outsider.ne.kr/1484)
+
+- `아웃사이더님의 기술뉴스 #150번째의 기술 큐레이션이다.` 양질의 글들이 모여 있는데, 이번에는 `k8s`의 `coreDNS` 글, `k8s`의 인증 관련한 시리즈 글이 나에게 너무나 큰 도움이 많이 되었다. 그리고 `Helm`이 졸업 단계 프로젝트가 되었다는 소식도 반가웠다. (요즘 공부중인데, 쉽진 않다...)
+
+[팀 문화의 탄생 - 우아한형제들 기술 블로그](https://woowabros.github.io/experience/2020/05/13/birth-of-team-culture.html)
+
+- 아웃사이더님의 큐레이션에도 있었지만, 너무 좋은 글이라 가져왔다. `사실 이런 지속적인 변화를 꿈 꾸는 팀 문화를 가져가는 것이 옳은 일인지? 아닌지? 애매할 때가 있다.` 개발자로 일 하고 있으나, 그렇게 성장에 크게 큰 욕구가 없는 개발자도 있기 때문에 모호하다. 여전히 4년이 넘는 시간 동안 일하면서 어떤 변화를 만들어 낸다는 것은 정말 대단한 일인데, 이 팀에서는 2년 이상 성장하면서 팀 문화를 만들어 왔다. 우아한 형제들이여서 가능한 것일까? 나에게 자문을 하게 된다. `되든 안 되든 우리팀에도 점진적으로 도입 할 수 있으면 좋겠다.` 꼭, 신입 개발자분들이 많이 읽고, 각 회사 각 팀에 많이 공유하면 좋겠다. **(나같은 사람이 말하면 불만인데, 신입 개발자가 말하면 트렌드 일 수 있다.)**
+
+### 💻Java
+
+[Spring REST Docs에 날개를... (feat: Popup) - 우아한형제들 기술 블로그](https://woowabros.github.io/experience/2020/05/13/rest-docs.html)
+
+- `Spring REST Docs`를 활용하는 조직에서 적용 해보면 좋을 수 있는 꼼수 꿀팁 글이다. (물론, 우리팀은 `Gitbook`으로 관리를 하고 있다.)
+
+### 🛠Tool
+
+[Recoil](https://recoiljs.org/)
+
+- `facebook`에서 새로운 상태 관리 라이브러리를 공개 했다.
