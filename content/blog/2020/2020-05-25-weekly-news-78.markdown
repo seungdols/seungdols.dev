@@ -9,11 +9,13 @@ comments: true
 ---
   
   
+### 💻개발자에게 도움이 되는
+
 [738/clean-code-typescript](https://github.com/738/clean-code-typescript)
 
 - 클린코드 `typescript`편이다. 읽어두면 도움이 된다.
 
-[TypeScript 3.9](https://github.com/typescript-kr/typescript-kr.github.io/blob/master/pages/release%20notes/TypeScript%203.9.md)
+[](https://github.com/typescript-kr/typescript-kr.github.io/blob/master/pages/release%20notes/TypeScript%203.9.md)
 
 - `TS3.9`에 대한 릴리즈 노트 내용 번역이다.  `Optional Chaining` 관련 및 코딩시 가능한 실수등에 대한 부분이 개선 되었고, `ECMAScript`와 더 호환하려는 개선이 추가 되었다.
 
@@ -34,7 +36,8 @@ comments: true
 - 구글에서 공개한 `머신러닝 개론`에 대해 학습을 할 수 있는 곳이며, 한국어도 지원 된다.
 
 [How Notion Uses Notion ](https://www.notion.so/How-Notion-Uses-Notion-616f41d2f5124f3185cf1c36d267c07e)
-- Notion 사용법에 대한 가이드이다. 
+
+- `Notion` 사용에 대한 가이드이다.
 
 [The HTTP headers you don't expect](https://frenxi.com/http-headers-you-dont-expect/)
 
@@ -51,6 +54,8 @@ comments: true
 [naver/fe-news](https://github.com/naver/fe-news/blob/master/issues/2020-05.md)
 
 - `네이버 fe-news 5월의 큐레이션이다.` `ES2020` 기능, `TS3.8`등의 스펙들외 다양한 **FE news**들이 포함 되어 있다.
+
+### 🔧Tool
 
 [Iosevka](https://typeof.net/Iosevka/)
 
