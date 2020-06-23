@@ -1,0 +1,40 @@
+---
+layout: post
+title: "그냥 저냥 #위클리뉴스 #80"
+description: "그냥 저냥 #위클리뉴스 #80"
+date: 2020-06-23 21:06:08
+category: weekly-news
+tags: [weekly-news, programming]
+comments: true
+---
+  
+
+### 💻JavaScript
+
+[typescript-cheatsheets/react-typescript-cheatsheet](https://github.com/typescript-cheatsheets/react-typescript-cheatsheet)
+
+- `React` + `TypeScript`에 대한 치트 시트인데, 좋은 내용들이 정말 잘 정리 되어 있다. 나도 요즘 틈틈히 보면서 `setup` 하는 부분을 좀 공부 하고 있다. `setup`이 제일 어렵다. 이젠 `TS`로 개발 안하는 곳이 없는 것 같다.
+
+[Front-End Dev Tools For increased Productivity](https://medium.com/better-programming/10-productivity-tools-for-front-end-developers-4021cdef6fcb)
+
+- `FE개발자`가 알아두면 생산성이 좋을 툴 소개 글인데, 나는 `Easings`의 툴을 자주 쓰게 되었다. 요즘들어 스르륵 하는 **애니메이션을 너무 좋아한다. `browserhacks` 이 툴 같은 경우는 브라우저 별로 `css/js`를 간단하게 체크 하는 툴인데, 좋아보인다.  그외 다양한 툴들이 소개 되고 있다.** `Neumorphism` 같은 경우는 좀 어려운데, 이 부분은 구현하고자 한다면, 상세하게 찾아 보아야 한다는 생각이 들었다.
+
+### 👋🏻일반적인
+
+[한계를 넘는 가장 쉬운 방법은 관점을 바꾸는 것이다](https://ppss.kr/archives/218703)
+
+- 한 가지일만 하는 것이 아닌 여러 가지 일을 하고 싶거나? 하고 있는데, 의문이 든다면 읽어보면 좋을 글이다.
+
+["너의 에너지는 너를 위해 써" 절대 사람을 피해 이직하지 마라](https://ppss.kr/archives/217845)
+
+- 지금 있는 조직에서 불만이 있거나? 회사를 옮기려는 이들이 한 번쯤 읽어보고 고민해보면 좋은 글이다.
+
+[현대인에게 필요한 내 마음을 쉬게 하는 연습](https://ppss.kr/archives/219400)
+
+- `"내 마음을 쉬게 하는 연습"`이라는 책을 소개하며, 현대인에게 필요한 쉼을 설명 하고 있는데, 나에게 딱 필요한 책이라 생각 했다. 카트에 일단 넣어 두었다.
+
+### 🛠Tool
+
+[Learning Resources](https://gcanti.github.io/fp-ts/learning-resources/)
+
+- `TS`에서 사용할 수 있는 추상화된 `FP` 함수들을 제공 해주는 라이브러리이다. 라이브러리에 의존하거나 무분별하게 쓰는건 좋지 않다. 용량을 늘리게 되고, 결과적으로 응답이 느리게 된다. 하지만, 잘 쓰면 유용하다. 혹은 개인 프로젝트쪽에서 써보고 실무에 써보면 좋은 프로세스 같다고 생각 한다. 이 라이브러리는 사실 잘 쓰면 정말 좋은게 많은데, `FP` 자체가 어색해서 문제였다.
