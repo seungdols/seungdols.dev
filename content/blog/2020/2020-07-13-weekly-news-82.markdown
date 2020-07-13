@@ -1,0 +1,53 @@
+---
+layout: post
+title: "그냥 저냥 #위클리뉴스 #82"
+description: "그냥 저냥 #위클리뉴스 #82"
+date: 2020-07-13 23:07:17
+category: weekly-news
+tags: [weekly-news, programming]
+comments: true
+---
+  
+### 🙌🏻개발자가 읽으면
+
+[그 때 성장이라고 생각했던 것들](https://jbee.io/essay/growth-mistaken-2020/)
+
+- 이 글을 읽는 나 조차도 뼈를 퍽퍽 맞았으니, 다들 읽고 뼈 맞고, 제대로 공부 하는 방법으로 나아가면 좋겠다. (물론, `나의 블로그에 접속 하여 이 글을 보는 독자 또한 나랑 같이 뼈 맞는다`에 나의 왼손 터널 증후군을 걸겠다.) 근데, 너무 뼈 맞지 않아도 된다. `일일 커밋 하는 게 어디인가?` 나처럼 귀찮아 하는 사람은 다음 다음생정도에나 가능한 행위이다. `알고리즘 푸는게 어디인가? 풀다 보면 이직이 쉬워진다.` **지식쇼핑 하는게 어디인가? 나는 퇴근 후  넷플릭스만 본다.  모두 정답은 없다.** `다만, 중요한 건 내가 했던 행위들은 나만의 언어로 이해하고, 체화 하여, 그 정보가 지식이 되어 남에게 다시 전달 가능한 순간이 언젠간 온다.` 애플의 아버지가 말 했지. 연결 된 점을 이으면 그게 인생이라 했다. 뼈 맞고 위안을 해본다.
+
+[내 맘대로 위클리 뉴스 - 2020년 26주(2020.6.21 - 2020.6.27)](https://www.sangkon.com/sigamdream_weekly_2020_26/)
+
+- `Kotlin + Spring boot로 REST API 개발 하는 글, JAVA 15에 추가 된 기능 소개 글`이 나에겐 제일 좋고, 다른 `APP, JS, Python 관련 글도` 좋다! (`APP`은 내가 몰라서 못 읽는다.)
+
+[[B급 프로그래머] 7월 2주 소식(개발/관리도구, 고성능 서버/데이터베이스 부문)](https://jhrogue.blogspot.com/2020/07/b-7-2.html)
+
+- 이번 큐레이션에서는 제일 좋은 건 `서비큐라님의 MacOS 셋팅 개정판이다.` (소리 질럿!) / 그 외 다수의 아티클들이 있는데, 알짜 가득하다.
+
+### 💻Java
+
+[Optional ofNullable() method (With Examples) | Java Code Geeks - 2020](https://www.javacodegeeks.com/2020/07/optional-ofnullable-method-with-examples.html)
+
+- `ofNullable()` 함수에 대한 설명인데, 내부 구현 코드 예시가 나오는데, `T`가 `List`로 넘어오면, `EmptyList` 해줘야 하는거 아닌가..?!!??! 아마 오버로딩 하지 않았을까? 하는 추측 (`IDEA` 실행하기 귀찮다.) 근데 가만 보면, `Optional` 쓸 때, `isPresent()` 쓰지 않으면서 유연하게 함수형 `function`과 `default value`로 처리를 하고 싶은데, 막상 실무 코드에서 유지보수 하면서 넣는 건 너무 어렵다.
+
+[Convert an Array of Primitives to a List | Baeldung](https://www.baeldung.com/java-primitive-array-to-list)
+
+- `Primitive Array to List`로 변환 하는 방법 여러가지를 소개 한다. `Java` 코딩을 안 하다 보니 몰랐던 함수를 알게 되어 가져왔다. `.boxed()` 처음 봤다. 역시, 이것 저것 해봐야 늘게 된다.
+
+### 🖥JavaScript
+
+[Learn Next.js - A free video course on React and Next.js.](https://masteringnextjs.com/#course-overview)
+
+- next.js를 배울 수 있는 영상이 무료로 유투브로 올라가 있다. 다 보진 못했지만, 차근 차근 알려준다. 영알못도 가능하다!
+
+[Rush](https://rushjs.io/)
+
+- `Rush`는 `monorepo` 관리를 도와주는 도구이다.  사실 써 봐야 알 것 같은데, 지금은 딱히 뭐가 좋은지는 잘 모르겠다. (장점은 `MS`가 개발했다.) [장점은 엄청 많다.](https://rushjs.io/pages/intro/welcome/) `NPM`이랑 쿵짝이 잘 맞는다는 점..(`JS`가 적합해보임)
+
+👋🏻 일반적인
+
+[우린 이제 그만 만나겠구나: 인연의 유통기한에 대하여](https://ppss.kr/archives/220894)
+
+- 인연에 대한 고민이 든다면, 이 글을 읽어보면 좋겠다. 인연의 유통기한은 `서로의 상호작용이 한 쪽에서만 끝나도 끝나는 거다.` 그게 연인이든, 친구든, 지인이든.
+
+[차가운 사수와 일하는 법: 머리는 차갑게, 가슴은 더 차갑게](https://ppss.kr/archives/220938)
+
+- 내 사수 왜 이렇게 차갑지? 뭘 배울 수 있을까? 고민스러울때 읽어 보자.
