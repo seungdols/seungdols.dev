@@ -1,0 +1,53 @@
+---
+layout: post
+title: "그냥 저냥 #위클리뉴스 #83"
+description: "그냥 저냥 #위클리뉴스 #83"
+date: 2020-07-27 20:07:07
+category: weekly-news
+tags: [weekly-news, programming]
+comments: true
+---
+  
+### 👍🏻 개발자에게 도움이 되는
+
+[온라인 코드 리뷰에 대해서](https://elky84.github.io/2020/07/19/about_online_code_review/)
+
+- 온라인 코드 리뷰와 더불어서 같이 하면 좋은 것이 오프라인 코드 리뷰인데, 이는 굉장히 리뷰 하기 까다롭고, 양이 많은 경우 퀵하게 오프라인으로 하는 방법이 좋다. 그런데, 대다수 바쁜 시간을 할애 해야 하므로, 온라인 코드 리뷰가 제일 좋다고  생각하고, PR에 올라온 코드를 온라인으로 설명하고, 허점은 없는지 다 같이 찾는 것도 팀내에서 가끔 있는 일이다. (데일리 스크럼 끝나고 잠시 온라인 코드 리뷰 하는 것도 좋겠다.)
+
+[서버에 걸리는 부하, 추측하지 말고 계측하자](https://injae-kim.github.io/dev/2020/07/09/how-to-check-single-server-load-average.html)
+
+- 서버 부하에 대해 자세하고, 깊게 알아볼 수 있는 글이다. 더불어서 `top/sar` 명령어를 통해 나타나는 지표들을 통해 서버 커널에서의 프로세스 부하를 설명 하고 있다.
+
+[데이터 분석가의 재능과 능력치](https://cojette.github.io/talentfordata/)
+
+- 재능과 능력에 대한 그 애매모함이 가끔은 개발자들을 괴롭히는데, 데이터 분석가의 관점에서의 재능과 능력에 관한 이야기도 비슷한 맥락이라 가져왔다.
+
+### 💻Front-End(JavaScript)
+
+[NAVER D2](https://d2.naver.com/helloworld/2177909)
+
+- `레거시와 신규 플랫폼을 어떻게 서비스에 노출 시키는지` 잘 나와 있는데, React SSR 적용보다 실무에서 어떻게 레거시 시스템과 신규 시스템을 운용하는지를 보면, 신입 개발자에게 도움이 많이 된다.
+
+[깊은 복사와 얕은 복사에 대한 심도있는 이야기](https://medium.com/watcha/%EA%B9%8A%EC%9D%80-%EB%B3%B5%EC%82%AC%EC%99%80-%EC%96%95%EC%9D%80-%EB%B3%B5%EC%82%AC%EC%97%90-%EB%8C%80%ED%95%9C-%EC%8B%AC%EB%8F%84%EC%9E%88%EB%8A%94-%EC%9D%B4%EC%95%BC%EA%B8%B0-2f7d797e008a)
+
+- 깊은 복사와 얕은 복사에 대해 깊이 있는 글로 `JS와 JSON`에 대한 스펙 이야기, 이유와 대안까지 자세하게 설명하고 있다.
+
+[이벤트 핸들러를 대하는 개발자의 자세](https://blog.shiren.dev/2020-07-27-1/)
+
+- 이벤트 핸들러의 명확한 네이밍을 잘 정하는 것부터가 정말 중요하다고 생각 한다. (기왕이면, 팀내에 코드 네이밍 룰을 정하는 것도 방법이 아닐까? 생각 한다.)
+
+[코드스피츠 88 - async await #1/2](https://www.youtube.com/watch?v=H_Hb9IF7sfc&feature=youtu.be)
+
+- `Async / Await`의 기본이 되는 `Sync flow /  Non-Blocking`에 대하여 자세하게 학습 할 수 있다. 물론, JS는 기본적으로 알아야 이해할 수 있다.
+
+[아무것도 모르고, 아무것도 안 하는 것의 힘](https://ppss.kr/archives/220923?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+ppss+%28%E3%85%8D%E3%85%8D%E3%85%85%E3%85%85%29)
+
+- 결국 지식을 쌓아 지혜로 승화시키는 것은 얼마나 어려운 일인가. 누구나 투자가가 될 수 있으나, 워렌 버핏은 될 수 없는 이유는 지혜로움의 유무이지 않을까? 싶다.
+
+[말투에도 쿨톤·웜톤이 있다?](https://ppss.kr/archives/222135?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+ppss+%28%E3%85%8D%E3%85%8D%E3%85%85%E3%85%85%29)
+
+- 결국, 일 할때는 쿨톤, 그 외에는 웜톤 말투를 쓰는게 좋아보이는데, 쉽지 않은 이유가 말투는 습관이고, 바꾸기가 어렵다. 그리고 정답도 없다.
+
+[성공적인 나이 듦과 실패한 나이 듦](https://ppss.kr/archives/219417?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+ppss+%28%E3%85%8D%E3%85%8D%E3%85%85%E3%85%85%29)
+
+- 나이듦을 준비 하는 것도 중요하겠다는 생각이 들었는데, 소개한 책을 읽어보면 도움이 좀 될까?
