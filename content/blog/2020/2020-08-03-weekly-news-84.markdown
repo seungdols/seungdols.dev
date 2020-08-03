@@ -10,7 +10,7 @@ comments: true
   
 ### 💻For Developers
 
-[](https://velog.io/@mowinckel/%EC%9B%B9-%ED%81%AC%EB%A1%A4%EB%A7%81-I)
+['웹 크롤러' 좀 그만 만들어라](https://velog.io/@mowinckel/%EC%9B%B9-%ED%81%AC%EB%A1%A4%EB%A7%81-I)
 
 - 웹 크롤러에 대한 명확한 기준을 제시하고 있는데, 이 글이 트위터에서 핫했는데, 특유의 문체 때문이지 않을까? 싶다. 사실 글의 내용으로는 맞는 말이 있는데, 또 너무 과격한 표현이 문제이지 않을까? 생각 하다가도, 어떤 이들은 이런 문체의 글을 좋아하겠다 생각 했다.
 
