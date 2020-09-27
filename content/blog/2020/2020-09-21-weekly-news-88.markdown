@@ -10,7 +10,7 @@ comments: true
 
 ### 💻개발자에게 도움이 되는 
 
-[NAVER FE devtalk: 디자인 시스템에 대한 소개와 효율성 개선 및 구축 경험공유]([https://d2.naver.com/news/4194542](https://d2.naver.com/news/4194542))
+[NAVER FE devtalk: 디자인 시스템에 대한 소개와 효율성 개선 및 구축 경험공유](https://d2.naver.com/news/4194542)
 
 - 7월에 했던 `FE devtalk`에 대한 발표  영상이 공개 되었다. 여러 회사에 계신 분들이 다양한 주제와 깊이로 발표 하셨기 때문에 시간 날 때 참고하면, 도움이 많이 된다. 특히 디자인 시스템에 관심 있는 사람이라면 필수다.
 
