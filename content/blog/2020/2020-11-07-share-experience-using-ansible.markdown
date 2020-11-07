@@ -10,7 +10,7 @@ comments: true
   
 - 예약어를 변수명으로 썼을때 이슈
 
-예약어가 존재하는데, 예약어를 변수명으로 쓰면 arguemtns를 넘겨줘도 값 대입이 안된다.
+예약어가 존재하는데, 예약어를 변수명으로 쓰면 arguments를 넘겨줘도 값 대입이 안된다.
 
 ```
 ex)
@@ -26,7 +26,7 @@ role: “{{ role_name }}”
 
 ansible -m shell로 tomcat을 실행시켜도 모듈 실행이 끝나면 꺼지는데, nohup을 같이 줘야 하는 이유는 왜일까…
 
-sh file자체가 deamon구동으로 되어 있는데도…?
+shell script file자체가 daemon으로 실행하는데도…?
 
 이 부분은 검색을 해야봐야 할듯.
 
