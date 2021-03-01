@@ -8,8 +8,6 @@ tags: [javascript, programming]
 comments: true
 ---
 
-# 코드스피츠 77 - ES6+ 3회차
-
 ## interface
 
 * 인터페이스란 사양에 맞는 값과 연결된 속성키의 셋트
