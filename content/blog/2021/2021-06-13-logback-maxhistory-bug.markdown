@@ -1,3 +1,13 @@
+---
+layout: post
+title: "Logback maxHistory가 동작을 안한다?"
+description: "logback과 친해지기"
+date: 2021-06-13 22:00:00
+category: spring
+tags: [spring, programming]
+comments: true
+---
+
 ## Logback maxHistory bug
 
 logback의 rolling 정책중 하나인 `SizeAndTimeBasedRollingPolicy` 를 사용하는데, `maxHistory`가 동작을 하지 않는 이슈가 있는데, 이게 `1.2.3`버전에 있는 버그였다. 
