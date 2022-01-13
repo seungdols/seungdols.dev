@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Volta?! (JavaScript command line tool"
+title: "Volta?! (JavaScript command line tool)"
 description: "nvm만 쓸거늬!"
 date: 2022-01-13 22:56:00
 category: tool
