@@ -8,6 +8,10 @@ tags: [config, macos]
 comments: true
 ---
 
+## Macos 셋팅
+
+Update: 2022-01-14
+
 M1 맥북 에어를 구매하면서, 다시 새로 셋팅을 해야 하는 일이 생겼다.
 
 주로 기본 설정은 [subicura님의 macos 셋팅](https://subicura.com/2017/11/22/mac-os-development-environment-setup.html)을 이용 한다. 
@@ -101,7 +105,9 @@ export EDITOR=/opt/homebrew/bin/nvim
 
 ### spacevim 에서 jj to esc 설정하기 
 https://stackoverflow.com/questions/66654579/how-to-map-esc-key-to-jk-in-spacevim
+
 [Documentation | SpaceVim](https://spacevim.org/documentation/#concepts)
+
 `~/.SpaceVim.d/init.toml` 에서 아래의 설정 추가 
 
 ```jsx
@@ -133,22 +139,16 @@ brew install fasd
 
 #### asdf
 
+그런데, 잘 안 쓴다. (rbenv/volta를 주로 사용)
+
 ```bash
 brew install asdf
 ```
-
-그런데, 잘 안 쓴다.
 
 #### tmux
 
 ```bash
 brew install tmux
-```
-
-#### tig
-
-```bash
-brew install tig
 ```
 
 #### jq
@@ -166,6 +166,7 @@ brew install bat
 
 `vi ~/.zshrc` 후 `alias cat="bat"` 추가
 
+그런데, 위처럼 설정 하니, 가끔 `cat`으로 그냥 보고 싶을 때가 있어서 그냥 명령어를 입력해서 사용 중
 
 #### ngrok
 
@@ -264,6 +265,61 @@ volta install node
 
 최신 노드 버전을 설치 할 수 있다.
 
+#### tig
+
+```bash
+brew install tig
+```
+
+#### [gitui ](https://github.com/extrawurst/gitui)
+
+```bash
+brew install gitui
+```
+
+tig/lazygit과 비슷하나, 좀 더 빠르다. Rust로 작성 되었다.
+
+#### [lazygit](https://github.com/jesseduffield/lazygit)
+
+```bash
+brew install lazygit
+```
+
+github star로만 보면, lazygit이 제일 높다. go로 작성 되었다.
+
+#### emacs + spacemacs 
+
+```bash 
+brew install emacs
+```
+
+https://www.spacemacs.org
+
+```bash 
+$ git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
+```
+
+```bash
+$ emacs # 실행시 spacemacs 설정 시작 및 설치 
+```
+
+https://www.youtube.com/playlist?list=PLPNohcoOBa5GejCpa5-Mw79bXnyynM1Nn
+
+Spacemacs 사용법에 관한 최고의 영상들이다. 
+
+##### spacemacs jj - escaping
+
+```bash 
+emacs ~/.spacemacs
+```
+
+```lisp
+(defun dotspacemacs/user-config ()
+  (setq-default evil-escape-key-sequence "jj"))
+```
+Ref. https://github.com/syl20bnr/spacemacs/blob/master/doc/DOCUMENTATION.org#escaping
+
+ 
 ---
 
 ## IDE
