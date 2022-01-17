@@ -2,7 +2,7 @@
 layout: post
 title: "M1 맥북에어 사용기"
 description: "2주 후기"
-date: 2022-01-14 00:11:00
+date: 2022-01-17 23:49:00
 category: thinking
 tags: [thinking, programming]
 comments: true
