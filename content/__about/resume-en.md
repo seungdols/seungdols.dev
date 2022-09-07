@@ -24,14 +24,26 @@ One more thing, I love happy hour other developers.
 
 # 💼 Work Experiences
 
+## LinePlus Corporation
+
+|                 |                                                                                                             |
+| --------------: |-------------------------------------------------------------------------------------------------------------|
+|      **Period** | 2022.08 ~ ing                                                                                               |
+|    **Position** | Back-End Engineer                                                                                           |
+| **Description** | Develop E-commerce system for line shopping service at Shopping Search Team                                 |
+|    **Projects** | Develop of shopping order, point-back, benefit Work                                 |       
+
+
 ## Naver Corporation
 
-|                 |                                                                                                                |
-| --------------: | -------------------------------------------------------------------------------------------------------------- |
-|      **Period** | 2016.09 ~ current                                                                                              |
-|    **Position** | Full-stack Engineer                                                                                            |
-| **Description** | Develop web and API of Shopping Search page and Catalog services at Shopping Search team.                      |
-|    **Projects** | reorganization of the catalog (PC, Mobile), migrate from legacy(Java, Spring WebMVC) to Node.js(koa) and React |
+|                 |                                                                                                             |
+| --------------: |-------------------------------------------------------------------------------------------------------------|
+|      **Period** | 2016.09 ~ 2022.07                                                                                           |
+|    **Position** | Full-stack Engineer  / Back-End Engineer Tech Lead (2021.05 ~ 2022. 07)                                     |
+| **Description** | Develop Web Page and API, Batch, Admin tool for Shopping Search pages at Shopping Search Team               |
+|    **Projects** | Migrate outlink shopping mall fee from legacy system (kotlin / spring boot)                                 |       
+|    **Projects** | PM/VM machine management and migration to K8S                                                               |       
+|    **Projects** | reorganization of the catalog (PC, Mobile), migrate from legacy(Java, Spring WebMVC) to NextJs/Node.js(koa) |       
 
 |              |                                |
 | -----------: | ------------------------------ |
