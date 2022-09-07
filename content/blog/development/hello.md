@@ -1,6 +1,6 @@
 ---
 title: 'Welcome Bee starter'
-date: 2019-2-6 16:21:13
+date: 2020-07-04 12:21:13
 category: 'development'
 draft: false
 ---
@@ -94,7 +94,17 @@ You can add comments feature by selecting one of them.
 - [ ] Disqus
 - [ ] utterances
 
-## 8. Other features of this template
+## 8. Support latex
+
+Support latex rendering with katex plugin.
+
+```tex
+$$\prod_{i=a}^{b} f(i)$$
+```
+
+$$\prod_{i=a}^{b} f(i)$$
+
+## 9. Other features of this template
 
 1. You can add resume to `/about`
 2. Lazy rendering

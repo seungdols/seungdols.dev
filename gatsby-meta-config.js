@@ -9,6 +9,8 @@ module.exports = {
     github: `seungdols`, // Your GitHub account
     medium: ``, // Your Medium account
     facebook: ``, // Your Facebook account
+    linkedin: ``, // Your LinkedIn account
+    instagram: ``, // Your Instagram account
   },
   icon: `content/assets/seungdols.png`, // Add your favicon
   keywords: [
@@ -18,7 +20,9 @@ module.exports = {
     `java`,
     `spring`,
     `ansible`,
-    `k8s`
+    `k8s`,
+    `kotlin`,
+    `spring boot`
   ],
   comment: {
     disqusShortName: '', // Your disqus-short-name. check disqus.com.
@@ -34,4 +38,5 @@ module.exports = {
     facebookAppId: '908635996149930', // Add facebookAppId for using facebook share feature v3.2
   },
   ga: 'UA-59104922-2', // Add your google analytics tranking ID
+  ad: '', // Add your google adsense publisherId `ca-pub-xxxxxxxxxx`
 }

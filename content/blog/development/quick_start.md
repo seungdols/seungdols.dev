@@ -1,6 +1,6 @@
 ---
 title: 'Quick Start'
-date: 2019-5-31 16:21:13
+date: 2020-07-05 17:21:13
 category: 'development'
 draft: false
 ---
@@ -40,7 +40,7 @@ You can write...
 
 ### Support script for creating new post
 
-![](assets/cli-tool-example.gif)
+![](./images/cli-tool-example.gif)
 
 ```sh
 $ npm run post

@@ -1,17 +1,17 @@
-import React from 'react'
+import React, { forwardRef } from 'react'
 import { StaticQuery, graphql, Link } from 'gatsby'
 import Image from 'gatsby-image'
 
 import './index.scss'
 
-export const Bio = () => (
-  <StaticQuery
+export const Bio = forwardRef((props, ref) => {
+  return <StaticQuery
     query={bioQuery}
     render={data => {
       const { author, social, introduction } = data.site.siteMetadata
 
       return (
-        <div className="bio">
+        <div ref={ref} className="bio">
           <div className="author">
             <div className="author-description">
               <Image
@@ -29,6 +29,11 @@ export const Bio = () => (
                 </Link>
                 <div className="author-introduction">{introduction}</div>
                 <p className="author-socials">
+                  {social.instagram && (
+                    <a href={`https://www.instagram.com/${social.instagram}`}>
+                      Instagram
+                    </a>
+                  )}
                   {social.github && (
                     <a href={`https://github.com/${social.github}`}>GitHub</a>
                   )}
@@ -45,6 +50,11 @@ export const Bio = () => (
                       Facebook
                     </a>
                   )}
+                  {social.linkedin && (
+                    <a href={`https://www.linkedin.com/in/${social.linkedin}/`}>
+                      LinkedIn
+                    </a>
+                  )}
                 </p>
               </div>
             </div>
@@ -53,7 +63,7 @@ export const Bio = () => (
       )
     }}
   />
-)
+})
 
 const bioQuery = graphql`
   query BioQuery {
@@ -73,6 +83,8 @@ const bioQuery = graphql`
           github
           medium
           facebook
+          linkedin
+          instagram
         }
       }
     }
