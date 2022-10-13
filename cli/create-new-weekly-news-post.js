@@ -37,6 +37,7 @@ date: ${dateFns.format(new Date(), DATE_WITH_TIMES_FORMAT)}
 category: weekly-news
 tags: [weekly-news, programming]
 comments: true
+draft: false
 ---
   `
 }

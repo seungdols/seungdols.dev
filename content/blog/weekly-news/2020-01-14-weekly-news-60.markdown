@@ -1,0 +1,124 @@
+---
+layout: post
+title: '그냥 저냥 #위클리뉴스 #60'
+description: '그냥 저냥 #위클리뉴스 #60'
+date: 2020-01-14 22:11:00
+category: weekly-news
+tags: [weekly-news, programming]
+comments: true
+draft: false
+---
+
+[2019년 개발 이야기](https://subicura.com/2020/01/07/2019-dev-summary.html)
+
+- 도커와 쿠버네티스 관련 글을 정말 잘 써주셔서 유명하신 `subicura`님의 2019년 개발 회고이다.
+
+[웹 개발자의 지옥, 이메일 폼 개발하기](https://vallista.kr/2019/12/27/%EC%9B%B9-%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%9D%98-%EC%A7%80%EC%98%A5-%EC%9D%B4%EB%A9%94%EC%9D%BC-%ED%8F%BC-%EA%B0%9C%EB%B0%9C%ED%95%98%EA%B8%B0/index.html?utm_source=gaerae.com&utm_campaign=%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%8A%A4%EB%9F%BD%EB%8B%A4&utm_medium=social)
+
+- `이메일 폼` 관련한 개발의 팁들을 잘 정리 해주셨다.
+
+[레거시 운영개발팀을 수습하다.](https://greypencil.tistory.com/m/113)
+
+- 확실히 중요한 부분은 관리자의 입장에 팀원들의 사기 체크는 굉장히 중요한 요소라고 생각 된다. 일단, `사기가 바로 생산성에 직결 된다.` 우리는 생산성을 높이기 위해 정말 많은 노력을 하지 않은가? 그런데도 불구하고, `팀원들의 사기`에 대해서는 높이는 생각을 잘 하지 않는다. ?! 아이러니 하게도 그렇다. 이 글을 읽으면서 정말 많은 내용들이 공감 되었다.
+
+[소프트웨어 개발자, 신입사원 교육. 어떻게 해야할까?](https://greypencil.tistory.com/m/115)
+
+- 신입사원 교육에 대한 깊은 고뇌가 있는 글인데, 꼭 시니어 개발자나 다른 연차가 높은 분들이 읽어주셨으면 좋겠다.
+
+[상품상세페이지 개선해 성과내기](https://medium.com/styleshare/%EC%83%81%ED%92%88%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80-%EA%B0%9C%EC%84%A0%ED%95%B4-%EC%84%B1%EA%B3%BC%EB%82%B4%EA%B8%B0-ae9d5cf651c1#gaerae.com)
+
+- 상품 상세 페이지를 개선하는 히스토리를 잘 남겨 주셨는데, 어떻게 해야 더 좋은 사용성과 사람들이 많이 사용하는지?에 대해 고민 하는 모습이 담겨있다.
+
+[2019년 회고](https://rinae.dev/posts/retrospective-2019)
+
+- `rinae`님의 회고 글인데, 읽어보면 참, 단순하기도 하지만, 어떻게 하면 더 좋은 코드와 프로덕트를 만들지 고민하는 개발자의 고민이 담겨 있어서 나에게도 많은 깨달음을 주었다.
+
+[2019.log](https://velog.io/@velopert/2019.log)
+
+- `velopert`님의 회고글인데, 복학을 안하시고, 라프텔에 잔류하여 개발을 더 하시기로 하셨다고 한다. 그리고, 여러가지로 정말 많은 활동을 하시는데, 대단하신 것 같다.
+
+[2019 회고](<[https://wikiwikiwi.netlify.com/doc/37](https://wikiwikiwi.netlify.com/doc/37)>)
+
+- 박성범님의 회고글이며, 해당 글에서 정말 여러가지로 많은걸 하고 계신다는 느낌을 받았다. 과거에는 훈련소 들어갔을때, 외부 기사를 읽으려고 인터넷 편지를 이용해서 받아보려고 했던 부분들? 아마 뼈개발자를 이런 사람을 두고 말하는 것 같다.
+
+[Same-Origin Policy 동일 출처 정책과 CORS 에러](https://velog.io/@yejinh/CORS-4tk536f0db)
+
+- `SOP`와 `CORS`에 대해서 알아 볼 수 있는 글이다.
+
+[CORS(Cross-Origin Resource Sharing)이 나오게 된 배경 이야기](https://www.youtube.com/watch?v=yTzAjidyyqs)
+
+- 왜 `CORS`가 발생 하는지에 대해서는 알고, 어떻게 해결 하는지는 알지만, 왜 탄생 하게 되었는지는 모르는데 알 수 있는 영상이라 도움이 된다.
+
+[따릉아! 문제는 UX/UI야!](https://brunch.co.kr/@supernova9/180)
+
+- 따릉이 앱의 문제는 무엇일까? 고민에 대한 문제 해결 히스토리 글인데, 정말 잘 써주셨다. 요즘 `UX/UI`의 중요성이 너무 없어지는 느낌이라 이 글을 재밌게 읽었다.
+
+[개발자로 살며 가장 치열했던 2019년을 돌아보며...](https://medium.com/@engross/%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%A1%9C-%EC%82%B4%EB%A9%B0-%EA%B0%80%EC%9E%A5-%EC%B9%98%EC%97%B4%ED%96%88%EB%8D%98-2019%EB%85%84%EC%9D%84-%EB%8F%8C%EC%95%84%EB%B3%B4%EB%A9%B0-a64c8611b6a0)
+
+- 2019 회고록인데, 실리콘 밸리에서 일하시기도 하시니까, 관심을 갖고 글을 읽었고, 많은 부분을 느끼게 되었다. (아, 이래서 고수는 다르구나.)
+
+[코드 가독성에 대해 - 1. 도입과 원칙 - LINE ENGINEERING](https://engineering.linecorp.com/ko/blog/code-readability-vol1/)
+
+- 코드 가독성이 높아야 하는 이유에 대해 소개하는데, 발표자료가 영어여서 그리고 다른 스크린 캐스트로 공유 되어 있어서 글 읽기가 어려웠다. (고로, 영어 부족)
+
+[Free Programming Books; HTML5, CSS3, JavaScript, PHP, Python...](https://books.goalkicker.com/)
+
+- 주제별로 무료 전자책이 제공 된다. 받아서 틈틈히 보도록 하자.
+
+[수학전공자가 추천 하는 유튜브 수학 강의 목록](https://medium.com/@matt_lee/수학전공자가-추천-하는-유튜브-수학-강의-목록-96c899728008)
+
+- 수학을 유투브로 배울 수 있다? 이렇게 빠르게 동영상 검색 기반의 삶으로 들어온 게 몇년 안 된 느낌인데, 이제는 거의 텍스트 기반에서 이미지 정보 공유에서 이제는 동영상 기반의 정보 공유의 시대가 되었다.
+
+[[번역] 10가지 소프트웨어 아키텍처 패턴 요약](https://mingrammer.com/translation-10-common-software-architectural-patterns-in-a-nutshell/)
+
+- 흔하게 접할 수 있는 패턴도 있고, 아닌 패턴들이 있는데, 간략하게 설명이 딱딱 잘 되어 있어서 보기에 좋다.
+
+[도커(Docker) 컨테이너는 가상 머신인가요? 프로세스인가요?](https://www.44bits.io/ko/post/is-docker-container-a-virtual-machine-or-a-process)
+
+- 이 글을 읽다보니 아래의 3개의 글타래 링크들이 나오는데, 모두 중요한 정보라 꼭 읽어보면 좋겠다. 그리고 이 글은 정확한 표현으로 `도커 컨테이너가 가상 머신인지? 프로세스인지?`를 이해시키고 있다.
+
+[만들면서 이해하는 도커(Docker) 이미지: 도커 이미지 빌드 원리와 OverlayFS](https://www.44bits.io/ko/post/how-docker-image-work)
+
+[컨테이너 기초 - chroot를 사용한 프로세스의 루트 디렉터리 격리](https://www.44bits.io/ko/post/change-root-directory-by-using-chroot)
+
+[컨테이너 기초 - 정적 링크 프로그램을 chroot와 도커(Docker) scratch 이미지로 실행하기](https://www.44bits.io/ko/post/static-compile-program-on-chroot-and-docker-scratch-image)
+
+- 정말 친절하게 컨테이너 기초와 도커 이미지에 대해 설명을 하고 계시는데, 꼭 읽어보자!
+
+[Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
+
+- 커밋 관련한 메시지 규율 같은 느낌인데, 물론 잘 쓰려고 노력 해야 하고, 나중에 남는 것은 커밋 메시지이다.
+
+### React
+
+[My Top React Techtalks of 2019](https://dev.to/mavropalias/my-top-react-techtalks-of-2019-485j)
+
+- `2019 리액트` 관련 발표 영상들의 모음인데, 다 이해하면 좋겠지만, 어느 부분만 이해해도 좋은 영상들이 많다.
+
+[Introduction to abortable async functions for React with hooks](https://itnext.io/introduction-to-abortable-async-functions-for-react-with-hooks-768bc72c0a2b)
+
+- `hooks api`를 이용해 중단이 가능한 비동기 함수를 만들어 예제를 보여주는 글인데, 굉장히 신기한 경험이었다. 나름, 좋은 예시가 되어 실무에서 잘 써먹을 수 있을 것 같다.
+
+[Replacing Redux with React Hooks and Context: A small concrete example with reactive-react-redux](https://levelup.gitconnected.com/redux-meets-hooks-for-non-redux-users-a-small-concrete-example-with-reactive-react-redux-6babc881639b)
+
+- `React Context + Hooks api`를 이용해 `redux`를 대체 하기 위한 시도를 실 예제로 보여주는 글인데, 실제 `reactive-react-redux` 라이브러리를 만들고 있다. 물론, 이게 정답은 아니겠지만 나름의 좋은 방향성이 된다고는 생각 한다.
+
+### JavaScript
+
+[lydiahallie/javascript-questions](https://github.com/lydiahallie/javascript-questions/blob/master/ko-KR/README-ko_KR.md)
+
+- `JavaScript` 관련 질문/답변에 대한 모음집인데, 생각보다 틀리게 된다. 역시, 기초를 잘 아는 것은 중요하구나 생각에 된 계기가 되었다.
+
+[🚀⚙️ JavaScript Visualized: the JavaScript Engine](https://dev.to/lydiahallie/javascript-visualized-the-javascript-engine-4cdf)
+
+- `JavaScript`를 시각화 해주면서 엔진에 대해 설명을 해주는데, 굉장히 좋은 글이다. 강추!
+
+[goldbergyoni/javascript-testing-best-practices](https://github.com/goldbergyoni/javascript-testing-best-practices/blob/master/readme.kr.md)
+
+- 요즘 들어 `Test`를 거의 안하고 있긴 했는데, 다시 되돌아가야겠다. 프론트 관련 일을 하고 있다면, 해당 글을 꼭 필독 하면 좋겠다.
+
+### Tool
+
+[klaussinani/taskbook](https://github.com/klaussinani/taskbook/blob/master/docs/readme.KR.md)
+
+- 터미널로 관리하는 할일 관리 툴이다. 신기해서 설치 해보았는데, 그날그날의 간단한 업무 `task`를 관리 해볼까?도 생각 했지만, 이미 `things`로 관리를 잘 하고 있어서 설치해서 가지고 놀고만 있다.

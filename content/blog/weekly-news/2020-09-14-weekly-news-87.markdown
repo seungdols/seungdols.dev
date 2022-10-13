@@ -1,0 +1,52 @@
+---
+layout: post
+title: '그냥 저냥 #위클리뉴스 #87'
+description: '그냥 저냥 #위클리뉴스 #87'
+date: 2020-09-14 22:09:62
+category: weekly-news
+tags: [weekly-news, programming]
+comments: true
+draft: false
+---
+
+### 💻개발자에게 도움이 되는
+
+[팀에 새로운 도구를 도입하고 싶다.](https://so-so.dev/essay/add-new-tool-at-team/)
+
+- `so-so`님이 팀에 도구를 도입 하는 것에 대한 생각을 남겨 주셨다. 이것과는 별개로 나도 한 번 써 봐야겠다. 팀에 도구를 도입 하거나, 어떤 일련의 프로세스를 도입 하는 것에 대한 글을 나도 한 번 써 보면 좋겠다는 생각이었다.
+
+[코드숨(codesoom)을 끝내며](https://blog.kwonmory.com/codesoom/ending-codesoom/)
+
+- 12주간 진행하는 코드숨 교육을 끝낸 회고에 대한 내용이며, 코드 숨 교육에 대한 커리 큘럼이 나와 있고, 어떻게 진행 하고, 프로젝트는 무엇을 했는지? 잘 남겨져 있다. (어떤 부분이 어려웠는지...새로웠던 부분들도 잘 나와 있다.)
+
+[전국에 맥도날드 주소가 어떻게 될까? | Daily Log](https://jiyeonseo.github.io/2020/08/01/where-is-mcdonald-addr/)
+
+- 전국 맥도날드, 스타벅스 매장에 대한 정보를 알고자 시작 헀으나, `API`가 도와주지 않고, `query limit`에 걸려 여러 시도를 통해 스펙 타협을 통해 결론을 얻어낸 후기를 잘 담고 있다.
+
+[빌드/테스트는 내가 해줄게. 너는 코딩에 집중해 (by GitHub Pull Request Builder)](https://taetaetae.github.io/2020/09/07/github-pullrequest-build/)
+
+- `PR - Build ci`를 `webhook`으로 연동 하는 가이드인데, 정말 스텝 바이 스텝으로 잘 나와 있다.
+
+[신규 서비스 배포 전에 실험과 개선을 반복한 이야기](https://helloworld.kurly.com/blog/vsms-performance-experiment/)
+
+- 마켓 컬리의 재고 관리 시스템을 개발 하며 겪은 이슈들과 해결 방안들을 `정말 생생하게 엿볼 수 있어서 너무 좋았다.`
+
+### 🖥Front-End
+
+[TypeScript enum을 사용하지 않는 게 좋은 이유를 Tree-shaking 관점에서 소개합니다. - LINE ENGINEERING](https://engineering.linecorp.com/ko/blog/typescript-enum-tree-shaking/)
+
+- `Tree-shaking`에 대한 관점에서는 생각해본 적이 없었는데, 결국 좋은 점으로는 `union types`를 쓰는 게 `enum`보다 좋다고 설명하는 글인데, 읽어보면 도움이 된다.
+
+[리액트 앱에서의 중앙 집중식 API 에러 핸들링](https://ui.toast.com/weekly-pick/ko_20200623/)
+
+- `Error`를 중앙 집중 형태로 따로 분리 내어 `404, 400, 500 등등 상태 코드`에 따른 핸들링을 하는 방법을 소개 하고 있다. `Redux/Apollo` 모두 소개를 하고 있으니 읽어 보면 도움이 된다. 사실, 그냥 지나치기 쉬운 소재이긴 한데, 사용자 친화적인 웹이 되려면, 이런 부분도 노력 해야 하지 않을까? 생각 한다.
+
+[✔ 우아한 테크러닝 3기: React & TypeScript 1회차](https://haranglog.tistory.com/13?category=941274)
+
+[✔ 우아한 테크러닝 3기: React & TypeScript 2회차](https://haranglog.tistory.com/14?category=941274)
+
+[✔ 우아한 테크러닝 3기: React & TypeScript 3회차](https://haranglog.tistory.com/15?category=941274)
+
+[✔ 우아한 테크러닝 3기: React & TypeScript 4회차](https://haranglog.tistory.com/16)
+
+- 우아한 테크러닝 4회차에 걸친 시리즈 글인데, 정말 자세하게 기록 되어 있고, 정리가 정말 잘 되어 있어서 참고 하기 좋다.

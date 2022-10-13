@@ -1,0 +1,74 @@
+---
+layout: post
+title: '그냥 저냥 #위클리뉴스 #86'
+description: '그냥 저냥 #위클리뉴스 #86'
+date: 2020-09-07 20:09:48
+category: weekly-news
+tags: [weekly-news, programming]
+comments: true
+draft: false
+---
+
+### 🖥개발자에게 도움이 되는
+
+[[마틴 파울러] 소프트웨어 아키텍쳐의 중요성 (한글 자막)](https://www.youtube.com/watch?v=4E1BHTvhB7Y&app=desktop)
+
+- 영상을 보면서 결국 중요한 것은 장기전인 관점이다. 내부 품질과 외부 품질, 그리고 프로젝트를 진행하는 사람들 사이의 공유, 그리고 확립된 스펙정의서 이 모든 것이 소프트웨어의 전부이구나 싶었다.
+
+[월간 개발자스럽다 #58](https://blog.gaerae.com/2020/08/monthly.html)
+
+- 월간 개발자스럽다 8월호인데, 8월간의 글타래들이 모여있다. 만약, 놓친 글들이 있다면, 읽어보자.
+
+[(긴글주의) 좌충우돌 Mazassumnida 개발기](https://cocosy.tistory.com/16)
+
+- 방학 때임에도 열심히 개발 작업을 하신 분의 경험 후기인데, 읽어보면 재밌고, `SVG`의 다채로움에 매료 될 수 있어서 좋았다. 👍🏻
+
+[캐시 성능 향상기 (Improving Cache Speed at Scale) : TOAST Meetup](https://meetup.toast.com/posts/251)
+
+- `redis` 캐시 성능 향상에 대한 영상을 보고 정리 해주셨는데, 정말 쉽고 자세하게 남겨 주셨다. (`debouce`를 도입 하는 건 정말 새로웠다.)
+
+[데이터 아키텍처의 변화](https://data-engineer-song.tistory.com/m/2)
+
+- 데이터 아키텍처에 변화를 이해하기 쉽게 표현 하고 있다. 그런데, AWS기반이라 다소 좀 아쉬운 부분은 AWS를 안쓰는 경우가 조금 궁금 했다.
+
+[시니어 개발자처럼 VSCode 사용하기](https://junwoo45.github.io/2020-09-02-use_vscode_like_a_senior_developer/)
+
+- 유용한 기능 소개와 스니펫 사용법을 알려주는데, 굉장한 도움이 된다. 스니펫을 열심히 써봐야겠다.
+
+### 💻Front-End
+
+[2020-08-31: Firefox 80, D3.js 6.0.0, Chrome 85, Puppeteer & Playwright](https://jser.info/ko/2020/08/31/firefox-80-d3.js-6.0.0-chrome-85-puppeteer-and-playwright/)
+
+- 정말 `다양하고 양질의 JavaScript관련 글들을`소개 하고 있다. 특히,`puppeteer, playwright를 위한 root-cause라는 프레임워크`가 새로 태어났는데, 문서가 아직 없어서 좀 아쉽긴 했다. 그 외 문서도 참고해보면 좋겠다.
+
+[개츠비 프리로딩과 프리패치](https://jeonghwan-kim.github.io/dev/2020/08/21/gatsby-prefetch.html)
+
+- 프리패치, 프리로딩 그리고 개츠비에서는 무엇을 사용하는지 상세하게 설명 하고 있다.
+
+[개츠비의 이미지 처리 방식](https://jeonghwan-kim.github.io/dev/2020/08/19/gatsby-image.html)
+
+- 개츠비에서 이미지를 어떻게 처리 하는지에 대한 설명이 자세하게 수록 되어 있다.
+
+[NAVER D2](https://d2.naver.com/helloworld/8257914)
+
+- `wasm`에 대해 자세하게 소개하는 글이다. 관련된 아티클은 링크도 추가 되어 있어서 관심이 있다면, 따라가며 읽어 보는 것도 좋아보인다.
+
+### 🛠Tool
+
+[Vimac - 키보드로만 macOS 사용하기 | GeekNews](https://news.hada.io/topic?id=2754)
+
+- `Vimium`은 크롬 확장 플러그인으로 크롬 안에서 `vi editor`처럼 쓸 수 있게 해준다. 그런데, 위의 앱은 맥 전체에서 vi 처럼 쓸 수 있도록 해준다. (상당히 퀄리티가 높다.)
+
+### 🙌🏻일반적인
+
+[어도비 플래시, 엣지 브라우저에서도 "굿바이"](http://www.bloter.net/archives/404467)
+
+- 어도비 플래시가 이제는 엣지에서도 사용할 수 없게 된다. 기억 속의 뒤안길로 사라지는 기술이 되었다. 마시로마로와 졸라맨등 한때는 정말 재밌었던 기억이 있었다. 그때는 아마 이렇게 JavaScript가 대인기가 된다고는 몰랐겠지?
+
+[렘수면이 짧으면 수명도 짧아진다?](https://ppss.kr/archives/222520?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+ppss+%28%E3%85%8D%E3%85%8D%E3%85%85%E3%85%85%29)
+
+- 수면의 단계는 렘수면과 논렘수면의 스위칭으로 반복 되며 수면을 취하게 되는데, 논렘수면의 단계가 길어야 몸의 Refresh가 되며, 뇌의 세포에도 영향을 미친다. 그렇게 자세한 글은 아니지만, 결국 건강이 좋아지는 방법은 잠을 잘 자는 것이고, 잠을 잘 자려면, 건강 해야 한다...? 특히, 정신적인 평온함이 있어야 한다고 한다. 잠들기 전에 꼭!!! 핸드폰을 멀리하고 짧게라도 명상을 하고 잠들자. 혹은 책을 읽자!
+
+[경청의 수준을 3단계로 나눠보았다](https://ppss.kr/archives/223648?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+ppss+%28%E3%85%8D%E3%85%8D%E3%85%85%E3%85%85%29)
+
+- 점점 더 경청의 태도가 중요한 세상이 되었다. 사람들은 만나서 보통 각자 휴대폰을 하는 시간이 있을때가 있는데, 이럴때가 나는 굉장히 괴롭다. 누군가를 만나서도 휴대폰을 봐야 한다니...😂 결국, 점점 시대는 휴대폰 안에 있는 것 같다.

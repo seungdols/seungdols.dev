@@ -1,0 +1,58 @@
+---
+layout: post
+title: '그냥 저냥 #위클리뉴스 #55'
+description: '그냥 저냥 #위클리뉴스 #55'
+date: 2019-09-28 11:39:00
+category: weekly-news
+tags: [weekly-news, programming]
+comments: true
+draft: false
+---
+
+### 개발자들에게 도움이 되는
+
+[VisBug 기여 이야기 - 1](https://rinae.dev/posts/journey-to-contribute-to-visbug-1)
+
+- `rinae`님이 글로벌 전문 개발 지원사업의 활동에 참여하는 겸 오픈 소스 개발에 기여 하고자 활동한 경험기에 대해서 써주셨는데, 어떻게 처음 시작 했고, 오픈 소스 기여에 대한 팁을 공유 해주셨다.
+
+[개발자 머피의 법칙 - 우아한형제들 기술 블로그](http://woowabros.github.io/experience/2019/09/19/programmer-murphy-law.html)
+
+- 정말 많은 양질의 자료를 개인 위키에 정리 하시는 걸로 유명하신 `손권남`님의 "이랬으면 어떨까? 혹은 직접 경험 하신 스토리의 각 소제목을 붙여 "에피소드"형식으로 정리 해주셨는데, 글도 정말 잘 쓰시는데, 현업에서 가장 중요하고, 장애가 많이 나는 포인트들만 콕! 콕 찝어 설명 해주셨습니다. (읽으면서도 놀랐다는...)
+
+[[B급 프로그래머] 9월 3주 소식(개발/관리도구, 고성능 서버/데이터베이스 부문)](http://jhrogue.blogspot.com/2019/09/b-9-3.html)
+
+- 많은 양질의 주제를 각 주마다 정리 해주시는데, (이번주는 머신러닝은 아니여서) 내가 관심 있는 분야가 많았다. 그 중에서도 `Cost of JavaScript 2019`라는 글의 소분류 내용인 `The cost of parsing JSON`의 글이 좋았다. 물론 `Rust` 관련 글이나, `역 인터뷰 질문` 번역글도 좋았다.
+
+### JavaScript
+
+[The cost of JavaScript in 2019](https://v8.dev/blog/cost-of-javascript-2019)
+
+[Code caching for JavaScript developers](https://v8.dev/blog/code-caching-for-devs)
+
+[Blazingly fast parsing, part 2: lazy parsing](https://v8.dev/blog/preparser#pife)
+
+- `v8` 엔진 개발자들이 직접 작성하는 블로그가 있는지 처음 알았다. 그런데, 정말 양질의 글이 많이 올라와 있는데, `The cost of JavaScript in 2019`, `Code cashing for JavaScript developers`, `Blazingly fast parsing, part 2: lazy parsing` 위 3가지의 주제는 꼭 읽어보면 좋겠다.
+
+[CRA(Create React App)에 tslint, eslint, prettier 적용하기](https://milooy.wordpress.com/2019/09/21/cracreate-react-app%ec%97%90-tslint-eslint-prettier-%ec%a0%81%ec%9a%a9%ed%95%98%ea%b8%b0/comment-page-1/#comment-1927)
+
+- 토이 프로젝트에 tslint,eslint, prettier를 적용하면서 남긴 공유 글이다. 그런데, tslint 진영이 eslint로 합쳐지고, 기존 tslint는 deprecate 되기 때문에, 둘 중 하나만 설정 해도 되지 않을까? 생각 한다. 참고: [Roadmap: TSLint -> ESLint](https://github.com/palantir/tslint/issues/4534)
+
+[Typescript와 NodeJS를 이용한 간단한 목킹 서버 띄우기 02](https://blog.martinwork.co.kr/nodejs/2019/09/20/nodejs-with-typescript02.html)
+
+- `TypeScript`와 `Node.js`를 이용해 `API` 서버를 만드는 튜토리얼을 작성 해주셨는데, `step by step`으로 잘 정리 해주셨다.
+
+### Java
+
+[ConstraintValidator을 이용해서 효과적인 검증 -Yun Blog | 기술 블로그](https://cheese10yun.github.io/ConstraintValidator/)
+
+- `Spring WebMVC framework`에서 `Controller`로 넘어온 요청 값 검증을 효율적으로 하기 위한 글을 정리 해주셨다. `reqeust`로 들어온 `parameter`를 검증 하기 위해 조건문을 `controller`에 덕지 덕지 바르곤 했었는데, 사실 `Spring WebMVC framework`를 주먹 구구식으로 배우다시피해서 어설픈 부분이 있었는데, 이번 글을 통해 요청 값 검증에 대한 부분에 대한 궁금증은 좀 해소 된 기분이다.
+
+[marchof/java-almanac](https://github.com/marchof/java-almanac)
+
+- `Java`의 언어의 변천사에 대한 부분을 모두 정리 해둔 `Repository`인데, 아마 지속적인 업데이트 될 가능성이 많다. (만든이가 `Java` 히스토리를 공유 하고 싶어서 만든 느낌)
+
+### CSS
+
+[잘 알려지지 않은 유용한 CSS 속성들](https://ahnheejong.name/articles/less-famous-css-properties/)
+
+- `안희종님이` 잘 써보지 않았던 `CSS` 속성들에 대해 소개와 직접 설명을 하는 글인데, 설명이 자세하기에 도움이 많이 된다. **다만, 정말 본 적 없는 속성들이다.** `CSS` 세계도 정말 광활하게 넓은 들판처럼 무궁무진한 세계라는 생각을 하곤 한다. 물론, 나는 프론트팀에서 프론트 개발을 하고 있지만, `CSS`를 직접 손대지 않는다. 그래서 약간의 아쉬움이 있긴 한데 틈틈히 보려고 한다.

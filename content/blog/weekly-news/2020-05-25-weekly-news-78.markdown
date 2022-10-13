@@ -1,0 +1,62 @@
+---
+layout: post
+title: '그냥 저냥 #위클리뉴스 #78'
+description: '그냥 저냥 #위클리뉴스 #78'
+date: 2020-05-25 23:05:95
+category: weekly-news
+tags: [weekly-news, programming]
+comments: true
+draft: false
+---
+
+### 💻개발자에게 도움이 되는
+
+[738/clean-code-typescript](https://github.com/738/clean-code-typescript)
+
+- 클린코드 `typescript`편이다. 읽어두면 도움이 된다.
+
+[](https://github.com/typescript-kr/typescript-kr.github.io/blob/master/pages/release%20notes/TypeScript%203.9.md)
+
+- `TS3.9`에 대한 릴리즈 노트 내용 번역이다. `Optional Chaining` 관련 및 코딩시 가능한 실수등에 대한 부분이 개선 되었고, `ECMAScript`와 더 호환하려는 개선이 추가 되었다.
+
+[Hexo에서 Gatsby로 블로그 마이그레이션 야크쉐이빙 후기](https://evan-moon.github.io/2020/05/09/gatsby-migration-retrospective/)
+
+- `Gatsby`로 블로그를 마이그레이션 한 경험기인데, 블로그를 이전하려는 분들이 본다면 도움이 많이 된다.
+
+[Distributed Cache로 Hibernate Second Level Cache를 적용하여 성능 튜닝하기 - 이론편](https://pkgonan.github.io/2020/05/distributed-hibernate-second-level-cache-1)
+
+[Distributed Cache로 Hibernate Second Level Cache를 적용하여 성능 튜닝하기 - Distributed Cache Cluster 개발편](https://pkgonan.github.io/2020/05/distributed-hibernate-second-level-cache-2)
+
+[Distributed Cache로 Hibernate Second Level Cache를 적용하여 성능 튜닝하기 - Second Level Cache 적용편](https://pkgonan.github.io/2020/05/distributed-hibernate-second-level-cache-3)
+
+- `Second Level Cache`를 도입하고, 이를 위해 `Distributed Cache`를 선택하고, `Hazelcast`을 선택한 배경부터 시작한 개발까지 시리즈글로 되어 있는데, 나는 개발 하면서 `캐시 레이어를 2-depth`로 구성 해 본적이 없어서 좀 생소하긴 했지만, 재밌게 읽었다.
+
+[Google News Initiative Training Center](https://newsinitiative.withgoogle.com/training/course/introduction-to-machine-learning)
+
+- 구글에서 공개한 `머신러닝 개론`에 대해 학습을 할 수 있는 곳이며, 한국어도 지원 된다.
+
+[How Notion Uses Notion ](https://www.notion.so/How-Notion-Uses-Notion-616f41d2f5124f3185cf1c36d267c07e)
+
+- `Notion` 사용에 대한 가이드이다.
+
+[The HTTP headers you don't expect](https://frenxi.com/http-headers-you-dont-expect/)
+
+- `HTTP`의 헤더에 관한 내용인데, 흔히 모르고 지나치기 쉬운 정보를 알려주고 있다. (진짜 처음 봤다.)
+
+[13 Security Tips for Front-End Apps](https://medium.com/better-programming/frontend-app-security-439797f57892)
+
+- `FE app들의 13가지의 보안 팁`이다. 사실, 아는 것도 있지만, 정말 막연하게 아는 지식들이 전부인 것 같다. 알아두면 분명히 도움이 많이 된다. (`SQL 인젝션` 같은 것도 단순 공격이 되어 버린 세상이지만, 방어하는 것은 진짜 중요하다.)
+
+[Getting Started with Rust by Building a Tiny Markdown Compiler](https://jesselawson.org/rust/getting-started-with-rust-by-building-a-tiny-markdown-compiler/)
+
+- 러스트를 배우는데 가장 좋은 예시가 뭘까? 러스트를 이용해 작은 마크다운 컴파일러를 만들어 보는 튜토리얼인데, 꽤 길다. (`Rust`를 좋아한다면, 도전 해볼만 하다.)
+
+[naver/fe-news](https://github.com/naver/fe-news/blob/master/issues/2020-05.md)
+
+- `네이버 fe-news 5월의 큐레이션이다.` `ES2020` 기능, `TS3.8`등의 스펙들외 다양한 **FE news**들이 포함 되어 있다.
+
+### 🔧Tool
+
+[Iosevka](https://typeof.net/Iosevka/)
+
+- 오픈 소스로 공개 된 폰트인데, 다양하게 설정이 가능 하다. (실제 써보지는 않았습니다.)

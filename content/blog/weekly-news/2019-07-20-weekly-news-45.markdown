@@ -1,0 +1,38 @@
+---
+layout: post
+title: '그냥 저냥 #위클리뉴스 #45'
+description: '그냥 저냥 #위클리뉴스 #45'
+date: 2019-07-20 18:59:20
+category: weekly-news
+tags: [weekly-news, programming]
+comments: true
+draft: false
+---
+
+### 개발에 도움이 되는
+
+- [Python HTML 문자열을 마크다운으로 변환하는 html2text 라이브러리 알아보기](<[https://minwook-shin.github.io/python-convert-html-to-markdown-using-html2text/](https://minwook-shin.github.io/python-convert-html-to-markdown-using-html2text/)>): 요즘 티스토리 데이터를 백업해서 markdown으로 바꾸고 싶다는 생각을 했는데, python에 이런 툴이 있었다. 역시, **반복하지 말라**는 명언을 기억하고, 검색하자.
+- [Alfred에서 iTerm 명령어 바로 실행하기](<[https://nesoy.github.io/articles/2019-07/Alfred-iterm](https://nesoy.github.io/articles/2019-07/Alfred-iterm)>): Alfred에서 터미널 명령어를 바로 실행 할 수 있도록 하는 applescript를 어떤 이가 만들었는데, 이를 소개하는 글이다.
+- [2019 상반기 회고 + 하반기 다짐 (feat. 글또)](<[https://feel5ny.github.io/2019/07/07/Joylog_003/](https://feel5ny.github.io/2019/07/07/Joylog_003/)>): 프론트 개발자분의 상반기 회고록인데, 여러가지 활동을 많이 하시는 것 같았다. 그런데, 도대체 시간관리를 어떻게 하시는지 궁금하기도 하다.
+
+- [[B급 프로그래머] 7월 1주 소식(개발/관리도구, 고성능 서버/데이터베이스 부문)](http://jhrogue.blogspot.com/2019/07/b-7-1.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+blogspot%2FASpE+%28%3F%3F%3F+vs+%3F%29)
+
+- [기술 뉴스 #130 : 19-07-15 :: Outsider's Dev Story](https://blog.outsider.ne.kr/1454)
+
+  - dockerfile 작성 하는 best practice 아티클이 인상 깊었다. 요즘은 또 도커를 손 놓고 있었는데, 확실히 용량을 작게 만드는 게 가장 중요하다. 빌드 타임 진짜 헬이다.
+
+- [여러 개의 JDK를 설치하고 선택해서 사용하기 - 개발수양록](https://blog.benelog.net/installing-jdk.html)
+
+  - JDK를 설치하고 관리하는 방법에 대한 소개를 각 tool별로 잘 소개 해주시고, 정리를 딱 해주셨다. 그런데, `jenv`가 쓰다 보니 불편한 점이 좀 많다. 일단 충돌이 잦아서 다른 도구를 쓰려고 하는데, 이 글을 보고 하나를 새로 설치 해보려고 한다.
+
+- [Firefox 68: BigInts, Contrast Checks, and the QuantumBar - Mozilla Hacks - the Web developer blog](https://hacks.mozilla.org/2019/07/firefox-68-bigints-contrast-checks-and-the-quantumbar/)
+
+  - BigInt가 Firefox 68에 추가 되었다고 한다. 아마, 곧 표준 JS에도 반영이 될 부분이라 그런지, 없데이트가 빠르다고 생각되는 건 내 기분 탓 일까?
+
+- [Kafka and Friends (ko)](https://speakerdeck.com/dongjin/kafka-and-friends-ko)
+  - [Kafka Manager](<[https://github.com/yahoo/kafka-manager](https://github.com/yahoo/kafka-manager)>) + [kafka-webview](<[https://github.com/SourceLabOrg/kafka-webview](https://github.com/SourceLabOrg/kafka-webview)>)를 같이 쓰고 있는데, 여기서 더 추가적으로 부족하다거나 하는 것은 아직은 없다.
+
+### JavaScript
+
+- [JavaScript Closure by Example - RWieruch](https://www.robinwieruch.de/javascript-closure/)
+  - closure의 예시를 코드로 보여주면서 설명을 하고 있는데, 면접이든 실제 코딩을 하든 JS에서의 Closure 개념을 알고 있는 것과 모르는 것은 굉장히 차이가 크다.

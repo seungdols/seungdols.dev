@@ -1,0 +1,138 @@
+---
+layout: post
+title: '그냥 저냥 #위클리뉴스 #69'
+description: '그냥 저냥 #위클리뉴스 #69'
+date: 2020-03-15 19:03:45
+category: weekly-news
+tags: [weekly-news, programming]
+comments: true
+draft: false
+---
+
+[정산지기를 향한 첫걸음 (feat. 파일럿 프로젝트) - 우아한형제들 기술 블로그](https://woowabros.github.io/experience/2020/03/02/pilot-project-wbluke.html)
+
+- 우아한형제들에 입사하신 분의 파일럿 프로젝트에 대한 피드백 경험기 그리고 어떻게 리팩토링 했는지에 대해 두달 간의 여정이 잘 녹아 있어서 읽어보면 도움 되는 부분들이 많았다. `읽으면서 부러웠던 부분은 확실히 신입 교육이 앞으로의 개발자로 일함에 있어서 중요한 길라잡이가 된다는 생각이다.` (내가 속한 회사도 이런 단계적인 프로젝트 사이클이 처음에 있으면 좋겠다 생각하지만, 또 대규모 채용을 하는 입장에서는 쉽진 않겠지...라는 생각이다.)
+
+[개발자를 위한 레디스 튜토리얼 01 : TOAST Meetup](https://meetup.toast.com/posts/224)
+
+[개발자를 위한 레디스 튜토리얼 02 : TOAST Meetup](https://meetup.toast.com/posts/225)
+
+[개발자를 위한 레디스 튜토리얼 03 : TOAST Meetup](https://meetup.toast.com/posts/226)
+
+[개발자를 위한 레디스 튜토리얼 04](https://medium.com/garimoo/%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%A5%BC-%EC%9C%84%ED%95%9C-%EB%A0%88%EB%94%94%EC%8A%A4-%ED%8A%9C%ED%86%A0%EB%A6%AC%EC%96%BC-04-17256c55493d)
+
+- `레디스 관련 튜토리얼` 시리즈 글인데, 해당 글을 읽으면서 레디스가 어떤 녀석이고? 어떤 기능을 하는지? 관리는 어떻게 해야 하는지 기본적인 지식을 쌓일 수 있고, 꿀팁을 다량 얻을 수 있다.
+
+[새로 입사한 개발자가 프로젝트에 기여하는 방법 한 가지](https://helloworld.kurly.com/blog/fix-style-with-command/)
+
+- `신규 입사자가 프로젝트에 기여하는 방법에 대한 글`인데, `(기계인간) 종립님`의 작업은 항상 기본에 충실 하면서도 다른이들에게 배움의 기회를 준다는 점에서 박수를 보내고 싶다.
+
+[STOP!! You don't need Microservices.](https://medium.com/swlh/stop-you-dont-need-microservices-dc732d70b3e0)
+
+- `MSA`가 왜 필요 없는지?를 설명하는 글이지만, `MSA`를 무족건적으로 비판하는 것은 아니다.
+
+[9 Popular GitHub Repos For Every Web Developer](https://medium.com/better-programming/9-popular-github-repos-for-every-web-developer-6826582291bc)
+
+- 웹 개발을 하는 사람들을 위한 9가지의 인기 있는 저장소 모음이다. `You don't know JS`는 특히 유명하다.
+
+[초보 개발자를 위한 IT영단어 정리](https://brunch.co.kr/@hopeless/8)
+
+- 본적 없는 영단어는 외워 두면 좋다.
+
+[공개적으로 학습하라!](https://velog.io/@kwanwooi/%EA%B3%B5%EA%B0%9C%EC%A0%81%EC%9C%BC%EB%A1%9C-%ED%95%99%EC%8A%B5%ED%95%98%EB%9D%BC)
+
+- `netlify`에 일하는 개발자가 쓴 글을 번역한 글인데, 공개적으로 학습하라는 말은, 결국 배운게 있고, 어떤식으로든 학습을 하여, 컨텐츠를 생산하라는 조언이다. 그의 말에 동의 한다.
+
+[좋은 회사 기술 블로그는 어떻게 운영되는가 | GeekNews](https://news.hada.io/topic?id=1698)
+
+- 좋은 회사들은 어떻게 기술 블로그를 쓰는지?에 대한 부분인데, 읽어보면 좋겠다. 도입할 수 있는 부분이 있다면, 도입 해보면 좋은 부분들이 많다.
+
+[GitLab's Guide to All-Remote](https://about.gitlab.com/company/culture/all-remote/guide/)
+
+- `gitlab`은 전 세계 모든 직원들이 원격 근무를 하는 유일한? 회사라 알고 있는데, 해당 원격 근무에 대한 가이드글이다.
+
+[개발자들이 꺼려하는 까칠한 규식이 형](https://helloworld.kurly.com/blog/reg-exp-01/)
+
+- **나도 어렵게 생각하는 정규식은 사실 모든 개발자들이 꺼려하는 것 같다.** 물론 좋아하는 사람들도 있다. 그런 `정규식과 친해지는 방법`에 대한 그리고 `실무에서 발생한 문제를 어떻게 처리 하는지`를 소개하고 있다.
+
+[집에서 일했을 뿐인데 생산성이 폭발했다 | 뱅크샐러드](https://blog.banksalad.com/tech/work-from-home/)
+
+- `뱅샐에서 재택 근무를 거의 4주차에 접어 들면서 파악한 재택 근무의 효율성`에 관한 이야기이다. 물론, 룰을 정해 일 하기 때문에 기존 근무와 크게 달라지지 않은 것을 볼 수 있다.
+
+### Container
+
+[도커 베스트 프랙티스 (번역)](<[https://changhoi.github.io/posts/docker/Docker-best-practices/?fbclid=IwAR2B_RTWHNRtAVoKZsajV8sdqSLeGmsiepVOymPnIEOCOT3ufmT6zXgjsmA](https://changhoi.github.io/posts/docker/Docker-best-practices/?fbclid=IwAR2B_RTWHNRtAVoKZsajV8sdqSLeGmsiepVOymPnIEOCOT3ufmT6zXgjsmA)>)
+
+- `dockerfile`을 잘 작성 하기 위해서는 `레이어별 캐싱`을 잘 활용하는 것이 중요하고, 좋은 방향으로 도커 파일을 관리하는 것이 좋은데, 도커 베스트 프랙티스라고 유명한 도커의 튜토리얼 가이드 글이 있는데, 해당 글의 번역 글이다.
+
+### JavaScript/FE
+
+[Saga Pattern과 redux-saga](https://so-so.dev/pattern/saga-pattern-with-redux-saga/)
+
+- `redux-saga`에 대해 상세하게 설명 해주신 글입니다. 해당 글에는 `saga-pattern`에 대한 설명도 있습니다. 요즘은 확실히 `redux-thunk`보다 많이 사용하는 느낌을 많이 받는다.
+
+[ReactJS의 Virtual DOM과 Repaint, Reflow | DrakeJin](http://blog.drakejin.me/React-VirtualDOM-And-Repaint-Reflow/)
+
+- `React`에서 `Virtual DOM`을 사용하는 이유, 브라우저에서 `Repaint, Reflow`가 발생하는 이유와 원인에 대해 정리 한 글
+
+[Introduction to Algebraic Structures - Functional Programming for JavaScript Developers](https://levelup.gitconnected.com/introduction-to-algebraic-structures-functional-programming-for-javascript-developers-cdd627943a4d?fbclid=IwAR0bVrTQLhTlkbCzpCSNOksSXAsTouSb2hWZHMscHYAtTgjD0TCpRFovDac)
+
+- **함수형 프로그래밍의 대수 구조에 대해 소개 하는 글**인데, 이해하기 쉽지 않다. (~~아마, FP의 지식이 없기 때문이지 않을까?~~)
+
+[[번역] await vs return vs return await](https://perade.github.io/blog/await-vs-return-vs-return-await/)
+
+- `JS`로 작업을 하다 보면, 애매할 때가 있는 그 부분의 의문을 없애주는 글이었다. `Return-awaiting`에 대해 이해할 수 있는 글이다.
+
+[JS: The Observers](https://www.huskyhoochu.com/js-observers/)
+
+- `JS 기본 내장` 옵저버들의 기능 설명이다. 알아두면 좋은 기능들이 많다.
+
+[engine262](https://engine262.js.org/)
+
+- `JS`를 이용해, `JS엔진을` 만든 프로젝트이다. 거의 대다수의 기능이 구현 되어 있다.
+
+[🚀 Visualizing memory management in V8 Engine (JavaScript, NodeJS, Deno, WebAssembly)](https://dev.to/deepu105/visualizing-memory-management-in-v8-engine-javascript-nodejs-deno-webassembly-105p?fbclid=IwAR3uDvgc4dk0LKLVzWSscPvJkHIB8M3p6DpcE8qhl1YCQsFjxZaODG5eWbs)
+
+- `V8엔진`의 메모리 관리법을 시각화 하여 보여주는 글이다. (`GC`를 생각해보면, `JAVA`의 `JVM`의 `GC`와도 유사한 느낌을 받았다.)
+
+[Monolithic 서버사이드 타입스크립트 세팅 01](https://changhoi.github.io/posts/etc/serverside-typescript-setting-01/)
+
+[Monolithic 서버사이드 타입스크립트 세팅 02](https://changhoi.github.io/posts/etc/serverside-typescript-setting-02/)
+
+- 타입 스크립트 세팅에 대한 가이드 글이다. 디렉토리 구조부터 설정 파일들의 내용까지 상세하게 가이드. 단점은 `koa`를 쓰는 경우 `swagger`를 쓰지 못할 수 있다. (과거 쓰려고 했으나, Express만 존재)
+
+[리덕스를 도입하는데 주저하게 만드는 장벽들 - 1. redux-saga 쓰지 말아야 할 이유](https://www.youtube.com/watch?v=1VNb_wmDiv8&fbclid=IwAR0nbcB5U8TBASKLFPtIIFEcHIwRQmxz3QcTgiU7e3HhEHPzv10aByqk2Ds)
+
+- `Redux`는 현재 가장 인기 있는 상태 관리 라이브러리이다. 전역 `single store`에서 모든 상태 관리를 한다. 요즘의 추세는 `Apollo + graphQL`의 조합이 아닐까? 한다. 에어비엔비에서 `FE`를 하시는 분의 강의 영상이다. 이 영상을 보고 나면 궁금한게 왜 굳이 `Thrift layer`를 두었을까? 하는 의문이다.
+
+[React Router v6 in Two Minutes](https://medium.com/better-programming/react-router-v6-in-two-minutes-a7a2963e2340)
+
+- `React Router v6`가 이제 베타 버전으로 나왔는데, 추가 된 기능들에 대해 짧게 짧게 소개 하고 있다. 유용한 기능이 추가 되었다.
+
+[Learn CSS Positioning - Ahmad Shadeed](https://ishadeed.com/article/learn-css-positioning/?fbclid=IwAR37s1ypx-e2bNJn9lg3IQcIMOKswX6S3XwuQp0PAFmvvHwsHp8TnxVfGsQ)
+
+- `CSS`의 `position`에 대해 그림으로 배울 수 있는 페이지이다. 그림으로 보니 이해가 쉽다.
+
+### Java
+
+[[MVC Servlet의 모든 것] 자바 EE, Servlet, ServletContext 등 개념](https://jordy-torvalds.tistory.com/m/14)
+
+- `Java EE, Servlet, ServletContext`에 대하여 자세하게 설명 한 글.
+
+[Design Patterns in the Spring Framework | Baeldung](https://www.baeldung.com/spring-framework-design-patterns)
+
+- `Spring framework`에 녹아 있는 패턴들에 대해 소개 한다. 만약, 스프링 프레임워크를 사용 하는 사람들이라면, 한 번쯤 읽어보면 좋다.
+
+[레거시 코드를 점진적으로 개선한 경험](https://sogoagain.github.io/2020/03/08/%EB%A0%88%EA%B1%B0%EC%8B%9C-%EC%BD%94%EB%93%9C%EB%A5%BC-%EC%A0%90%EC%A7%84%EC%A0%81%EC%9C%BC%EB%A1%9C-%EA%B0%9C%EC%84%A0%ED%95%9C-%EA%B2%BD%ED%97%98/)
+
+- `레거시 코드를 어떻게 개선 했는지?` 스스로 절차를 만들어 개선한 경험기를 공유하는 글입니다.
+
+### Tool
+
+[MonoLisa](https://monolisa.dev/)
+
+- 개발자를 위한 폰트이다. 눈이 편하도록 고안 되었다. (유료)
+
+[Redis Client Download](https://www.redily.app/download)
+
+- `redis client`는 주로 유료가 많은데, 해당 툴은 크로스 플랫폼을 지원하는 `redis client` 툴이다.

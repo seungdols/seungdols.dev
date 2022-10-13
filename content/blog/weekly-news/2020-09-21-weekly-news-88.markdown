@@ -1,0 +1,76 @@
+---
+layout: post
+title: '그냥 저냥 #위클리뉴스 #88'
+description: '그냥 저냥 #위클리뉴스 #88'
+date: 2020-09-21 22:09:70
+category: weekly-news
+tags: [weekly-news, programming]
+comments: true
+draft: false
+---
+
+### 💻개발자에게 도움이 되는
+
+[NAVER FE devtalk: 디자인 시스템에 대한 소개와 효율성 개선 및 구축 경험공유](https://d2.naver.com/news/4194542)
+
+- 7월에 했던 `FE devtalk`에 대한 발표 영상이 공개 되었다. 여러 회사에 계신 분들이 다양한 주제와 깊이로 발표 하셨기 때문에 시간 날 때 참고하면, 도움이 많이 된다. 특히 디자인 시스템에 관심 있는 사람이라면 필수다.
+
+[GitHub Codespaces 살펴보기 :: Outsider's Dev Story](https://blog.outsider.ne.kr/1497?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+rss_outsider_dev+%28Outsider%27s+Dev+Story%29)
+
+- `Github와 VS Code의 융합으로 Github Codespaces`가 출시 되었는데, 아웃사이더님께서 베타로 먼저 테스트 해본 경험글을 남겨주셨다. 생각보다 괜찮아 보이고, 가격도 그렇게 비싼 편이 아니라서, NodeJS서버 개발 같은 건 아이패드로 바로 개발 가능해 보인다.
+
+[k8s 필수 애플리케이션, 테라폼으로 한번에 설치하기 - 서비큐라 개발로그](https://www.youtube.com/watch?v=mzdFK8re_ig)
+
+- `Kubernetes, Helm Provider`에 대한 영상인데, 테라폼이 정말 강력하게 구성을 해주는 것을 볼 수 있고, 설명을 차근 차근 해주신다!
+
+[기술 뉴스 #158 : 20-09-15 :: Outsider's Dev Story](https://blog.outsider.ne.kr/1496?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+rss_outsider_dev+%28Outsider%27s+Dev+Story%29)
+
+- 이번 기술 뉴스에서는 개인적으로 스크럼에 관한 글이나, 깃허브 컨테이너 레지스트리등에 관한 글들이 좋았다.
+
+[Rust for Java developers - codecentric AG Blog](https://blog.codecentric.de/en/2020/09/rust-for-java-developers/)
+
+- `Java` 개발자를 위한 `Rust` 설명인데, `Java` 코드와 `Rust` 코드 Dual로 구성을 하고 설명을 하고 있어서 `Java` 코드를 읽을 줄 알면, 매칭 되는 러스트 언어를 학습 할 수 있다.
+
+[AWS Lambda와 SQS를 이용한 대용량 엑셀 처리](http://labs.brandi.co.kr/2020/06/09/leejp.html?utm_source=gaerae.com&utm_campaign=%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%8A%A4%EB%9F%BD%EB%8B%A4&utm_medium=social)
+
+- 왜 엑셀 다운로드를 분리 하게 되었는지에 대한 설명이 있어서 이해하기에 좋았고, `엑셀 다운로드에 대한 고민과 해결책을 AWS Lambda와 SQS`를 통해 해결한 경험 글이고, 현재 단점과 나아가야 할 점에 대해서도 잘 정리 해주셨다.
+
+[How HTTPS works](https://howhttps.works/ko/)
+
+- 추천을 받아 해당 링크를 알게 되었는데, 정말 이해하기 쉽게 되어 있다. 강추!!!👍🏻
+
+[[B급 프로그래머] 9월 3주 소식(개발/관리도구, 고성능 서버/데이터베이스 부문)](<https://jhrogue.blogspot.com/2020/09/b-9-3.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed:+blogspot/ASpE+(???+vs+?)>)
+
+- B급 프로그래머님의 9월 3주 소식인데, 다양한 소식들이 많고, 특히 `hwplib`라는 한글 라이브러리 (자바)가 신기하고 재밌었다. 그런데, 이제 한글을 멀리 한지 시간이 많이 지나 가끔 그 시절이 그립기도 하다. (물론, 많이 쓰는 곳도 있겠지!?) 아직, 읽기 기능만 지원 하는 것 같다. 그리고 그 외로 `react + typescript cheatsheet`라던가, `tmux` 입문기는 도움이 많이 된다. 원래 `tmux`를 기본으로 쓰곤 했는데, 생각보다 요즘은 또 잘 안쓰고 있다. (서버 작업 시에는 필수다)
+
+### 👋🏻프론트 엔드
+
+[Vue 3 가볍게 훑어보기](https://joshua1988.github.io/web-development/vuejs/vue3-coming/)
+
+- VueJS 3에 대한 바뀐 점과 어떻게 써야 하는지에 대한 소개인데, 제목은 `가볍게` 이지만, 내용은 정말 알차게 담겨 있다.
+
+[TypeScript를 활용한 서비스개발](https://medium.com/daangn/typescript%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%9C-%EC%84%9C%EB%B9%84%EC%8A%A4%EA%B0%9C%EB%B0%9C-73877a741dbc)
+
+- 당근마켓에서 TypeScript를 통해 어떻게 서비스를 개발 하는지에 대한 기술 스택 소개이다. NestJS는 옛날에 한 번 보고, 생각 못하고 있었는데, 다시 보게 되어 새로웠다. (데코레이터 패턴이라...🤔)
+
+[next.js를 이용해 레거시 프로젝트를 점진적으로 개선해나가기](https://blog.roto.codes/django-template-to-next-js/?utm_source=gaerae.com&utm_campaign=%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%8A%A4%EB%9F%BD%EB%8B%A4&utm_medium=social)
+
+- `Django + VueJS` 기반의 페이지를 점진적으로 `Next.JS`로 개선해가는 과정을 도입 이유, 어떻게 배포할지? 실제적으로 어떤 방법으로 진행 했는지에 대해서도 잘 남겨주셨다. (이런 글들이 정말 도움이 많이 된다.)
+
+### 🔧도구
+
+[GitHub CLI 1.0 is now available - The GitHub Blog](https://github.blog/2020-09-17-github-cli-1-0-is-now-available/)
+
+- `github cli tool`이 출시 되었다. MacOS는 `brew install gh`로 쉽게 설치 가능하다! 회사 엔터프라이즈에서 써볼까? 생각 중이다. 설정을 할 수 있게 되어 있다. 그런데, 공통으로 둘 다 쓸 수 있는지? 인증이 2개가 적용 되는지는 모르겠다. (아직 github만 시도 해봤다.)
+
+[Visualize Data Structures in VSCode](https://addyosmani.com/blog/visualize-data-structures-vscode/)
+
+- `VS Code`에서 디버그로 데이터 구조를 시각화 할 수 있는 플러그인에 대한 소개이다.
+
+[Nx: Extensible Dev Tools for Monorepos](https://nx.dev/)
+
+- `Monorepo`를 위한 개발 툴인데, 이것도 처음 접하게 되었다. (`lerna` 와 다른 개념인가 생각 했는데, 10분 소개 영상을 보면, 비슷한 것 같기도 하다.)
+
+[Flume](https://flume.dev/)
+
+- `NodeJS`용 `editor` 모듈이라고 하는데, 써 보진 않았지만, 기억하고자 기록 한다.

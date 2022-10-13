@@ -1,0 +1,94 @@
+---
+layout: post
+title: '그냥 저냥 #위클리뉴스 #75'
+description: '그냥 저냥 #위클리뉴스 #75'
+date: 2020-04-26 20:04:17
+category: weekly-news
+tags: [weekly-news, programming]
+comments: true
+draft: false
+---
+
+### 💻개발자에게 도움이 되는
+
+[신규입사자가 바로보는 마켓컬리](https://helloworld.kurly.com/blog/newbie-mansei/)
+
+- **마켓컬리의 신규 개발자가 본 마켓컬리의 문화를 체험하고 쓴 후기**이다. 선한 영향력이란게 이런 문화를 두고 하는 말 같다. `나도 이제 감정적인 부분은 내려두고, 하루에 하나씩 복리 구조의 팀을 만들어가는데 일조 해야겠다.`
+
+[ziishaned/learn-regex](https://github.com/ziishaned/learn-regex/blob/master/translations/README-ko.md)
+
+- 정규식 잘 모르던 분들이 참고 하기 좋은 `정규식 배우기 페이지입니다.`
+
+[xguru/awesome-awesome-awesome](https://github.com/xguru/awesome-awesome-awesome)
+
+- Awesome list를 모아둔 `Awesome Meta list` 저장소이다.
+
+[Greg Hausheer](https://www.greghausheer.com/articles/how-to-interview-engineers-when-youre-not-technical)
+
+- `비개발자가 개발자를 인터뷰 하는 방법에 관한 글`이다.
+
+[PostgreSQL is the worlds' best database](https://www.2ndquadrant.com/en/blog/postgresql-is-the-worlds-best-database/)
+
+- `PostgreSQL`이 좋은 이유에 대해서 소개 하고 있다. `그런데, 세세하진 않아서 신뢰가 좀 떨어진다.`
+
+[10 Things I Hate About PostgreSQL](https://medium.com/@rbranson/10-things-i-hate-about-postgresql-20dbab8c2791)
+
+- `PostgreSQL`을 싫어하는 10가지 이유인데, 자세하게 써두어 무엇이 강하고, 약한지 알 수 있는데, 정말 시스템의 메인디비로 쓸 수 있는지? 조금 궁금하다.
+
+[서버 개발 인턴 robin의 성장기](https://tech.kakao.com/2020/04/24/2019-internship-robin/)
+
+- 서버 개발 인턴을 하고, 정직원이 되어 일을 하며 성장한 경험기에 대해서 자세하게 남겨져 있는 글인데, `카카오의 업무 프로세스 문화를 알 수 있다.`
+
+[[B급 프로그래머] 4월 4주 소식(빅데이터/인공지능, 읽을거리 부문)](http://jhrogue.blogspot.com/2020/04/b-4-4.html)
+
+- 빅데이터/인공지능 관련 글타래 모음이다. `Go로 신경 네트워크를 구성 하는 글이 있는데, Go가 Python의 대체제가 될 수도 있을까?라는 얄팍한 생각을 잠시 했다.`
+
+[내 맘대로 위클리 뉴스 - 2020년 16주(2020.4.12 - 2020.4.18)](https://www.sangkon.com/sigamdream_weekly_2020_16/)
+
+- `JS/Python/JVM/Mobile`로 글들이 분류 되어 있다. `Spring Security 핵심 기능`에 대한 설명 하는 글이 관심 갔고, 잘 써보지 않아서 좀 이해가 바로 되진 않는 편이었다.
+
+[구글에서 세 번째 SRE 도서 Building Secure and Reliable Systems 무료 공개](https://www.44bits.io/ko/post/third-free-sre-book-build-seruce-and-reliable-system)
+
+- 구글에서 벌써 `세번째의 SRE 시리즈 도서`를 무료로 공개 하고 있다고 하는데, 이에 대한 소개와 링크를 제공 하고 있다.
+
+[Node.js 라이브러리 Readability로 전문 RSS 만들기](https://www.44bits.io/ko/post/generate-full-feed-by-using-mozilla-readability)
+
+- `Node.js`를 활용하여, `읽기 모드를 통한 RSS 만드는 예제`를 코드와 함께 소개 하고 있습니다.
+
+### 🌟AI
+
+[한국어 NLP dataset 모음](https://datasetfinder.blogspot.com/2020/04/dataset.html)
+
+- `NLP dataset` 모음인데, `NLP`하는 분들에겐 도움 많이 될 것 같다. (항상 공부 하고 싶다가도, 쉽지 않은 분야다)
+
+[The A-Z of AI](https://atozofai.withgoogle.com/intl/en-US/)
+
+- `AI의 A-Z로 잘 분류가 되어 있다.` 사이트를 어떻게 구성 했는지는 몰라도, 디자인을 정말 잘 했다. 계속 머무르고 싶게 만들었다.
+
+### 💻JavaScript
+
+[Cookie Recipes](https://so-so.dev/web/cookie-recipes/)
+
+- 쿠키에 관해서 정리를 정말 잘 해주셨다. `쿠키에 관해서 모르는 부분이 있다면 참고하면 좋겠다.`
+
+### 🔧쓸만한 도구
+
+[Percona-QA/pstress](https://github.com/Percona-QA/pstress)
+
+- DB를 테스팅 하는 툴이다. `어떨때 써야 할지 아직 감은 오지 않았다.`
+
+[ls보다는 exa를 사용하자! 모던 리눅스 명령어 소개[번역]](https://velog.io/@kameals/modern-linux-command?utm_source=gaerae.com&utm_campaign=%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%8A%A4%EB%9F%BD%EB%8B%A4&utm_medium=social)
+
+- 여러가지의 `CLI`에서 사용할 수 있는 도구를 소개 하고 있다. 물론 거의 대부분 쓰고 있는데, 굉장히 좋다. (일단 예뻐야 한다.)
+
+### 🙌🏻일반적인
+
+[폴 그레이엄 - 우리가 버려야 할 습관(1/2)](https://newspeppermint.com/2020/04/23/m-test1/)
+
+[폴 그레이엄 - 우리가 버려야 할 습관(2/2)](https://newspeppermint.com/2020/04/23/m-test2/)
+
+- 우리가 버려야 할 습관이라는 글로 2개의 글이 번역 되었는데, 폴 그레이엄이라는 사람이 블로그에 쓴 긴 내용의 글이다. `곰곰히 생각해보면, 이런 글들이 가끔 사색하게 만든다. 너무 너무 좋은 안목과 지적이다. 꼭 읽어보면 좋겠다.`
+
+[매일 1%씩 나아져 37배 성장한 내가 되는 방법](https://ppss.kr/archives/214853)
+
+- `아주 작은 습관의 힘` 저자의 이야기를 소개하는 글이다. 정말 작게 시작해 성장케 하는 방법을 소개하는데, 자세한 부분은 책을 읽는 것도 방법이다.

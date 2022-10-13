@@ -1,0 +1,116 @@
+---
+layout: post
+title: '그냥 저냥 #위클리뉴스 #53'
+description: '그냥 저냥 #위클리뉴스 #53'
+date: 2019-09-14 22:50:00
+category: weekly-news
+tags: [weekly-news, programming]
+comments: true
+draft: false
+---
+
+### 개발자들에게 도움이 되는
+
+[커밋 히스토리를 이쁘게 단장하자](https://evan-moon.github.io/2019/08/30/commit-history-merge-strategy/)
+
+- `브랜치 전략`은 정말 어려운 점은 팀 간 그리고 조직 간의 합의가 잘 되어야 한다. 물론, 조직 전체가 같은 `Repository`를 사용한다면, 강력한 Rule을 적용 해야 한다. (사람이 많을 수록 더 조심해야 한다.) 팀의 경우에도 `알맞는 브랜치 전략`을 사용하는 것이 좋고, 그런데 결국 그나마 보편적인 전략은 `git flow`라고 생각 한다. 그리고, `Commit History`를 어떻게 관리 할지?의 `Rule`도 잘 정의를 해 두어야 꼬이거나 복잡하게 히스토리가 유지 되지 않는다.
+
+[git이 저장하는 방식](https://junwoo45.github.io/2019-09-03-git%EC%9D%B4%EC%A0%80%EC%9E%A5%ED%95%98%EB%8A%94%EB%B0%A9%EC%8B%9D/)
+
+- `push` 할 때 나오는 `delta`와 `snapshot`의 구조를 사실 잘 몰랐는데, 해당 설명이 잘 되어 있는 글이다.
+
+[협업이 힘들었던 개발자의 특성](https://millenial-dev.tistory.com/15)
+
+- 협업하기 힘든 개발자의 특성을 나열 했는데, `무접점 개발자, 자신의 코드를 사랑하는 개발자, 주방장 개발자, 공유하지 않는 개발자` 등으로 사실 어떤 특성을 가진 건지 읽어 보면, 충분히 이해 할 수 있는 특성이다. 읽어 보고, 자신은 어떤 특성을 조금이라도 가진 것인지 생각해보면 좋겠다. (_~~물론, 나도 문제가 많다..~~_)
+
+[CloudWatch 이상 동작 탐지 기능 사용하기 #1](https://brunch.co.kr/@alden/54)
+
+- `CloudWatch`의 이상 동작 탐지 기능을 활용하여, `Slow log`를 수집하여 패턴 변화등을 감지하고 해당 이상 패턴을 시각화 한다.
+
+[MSA에서 메시징 트랜잭션 처리하기 | Popit](https://www.popit.kr/msa%EC%97%90%EC%84%9C-%EB%A9%94%EC%8B%9C%EC%A7%95-%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98-%EC%B2%98%EB%A6%AC%ED%95%98%EA%B8%B0/)
+
+- 사실, `MSA`, `Event Sourcing`들이 요즘의 트렌드가 아닐까 싶을 정도로 이야기가 많이 나오고 있다. `DDD`는 이미 거의 표준처럼 이야기를 하고 있다. 그 안에서 어떻게 하면, `Message Transaction`을 처리 할까?에 대한 해결책이 이 글이 아닐까 생각 한다. 그렇지만, 기존 방식에 익숙하신 분들은 사실 생소하기 짝이 없으리라 생각 한다.
+
+[검색엔진과 DB Like 검색의 결과가 다른 이유](https://www.slideshare.net/heungrae_kim/db-like)
+
+- 애초에 접근 방식 자체가 다르다고 이해해야 하지 않을까? 생각한다. 사실 `ES`를 잘 쓰기는 무척 어렵다고 생각 하는데, 이미 `ES`가 표준으로 자리 잡는 수준까지 와 있다고 생각 하는데, 검색 엔진과 `DB`의 `like` 검색의 차이를 설명하는 짧은 자료이다. 하지만, `ES`를 써보지 않았다면, 이해 하기는 어렵다.
+
+[if kakao 개발자 컨퍼런스 2019](https://if.kakao.com/program)
+
+- `if kakao`의 컨퍼런스 영상과 발표 자료가 모두 올라 왔다. 그래서 만약 직접 가서 듣지 못하신 분들은 해당 영상과 자료를 통해 학습하시면 도움이 됩니다.
+
+[기술 뉴스 #133 : 19-09-02 :: Outsider's Dev Story](https://blog.outsider.ne.kr/1458)
+
+- `GraphQL`에 관한 글이 인상적인데, `front-end`의 상태 관리의 역할까지 해내는 기능에 대한 설명을 하는 글이 좋았다. 물론 수 많은 다른 좋은 글들이 있다. (추천)
+
+[내 맘대로 위클리 뉴스 - 2019년 37주(2019.9.01 - 2019.9.07)](https://www.sangkon.com/sigamdream_weekly_2019_37/)
+
+- `Spring framework`에서 정말 많이 사용하는 테스트 라이브러리인 `junit5`를 이용해 `Spring MVC controller` 테스트 방법에 관한 글을 추천 해주셨는데, 나도 꼼꼼하게 다시 읽어 봐야겠다고 생각했다. (추천)
+
+[2019년 상반기 회고 (3월~8월)](https://blog.shik.kr/looking-back-march-august/)
+
+- `zxzl`님의 상반기 회고록인데, 실제 업무를 어떤 것을 하면서 겪은 일화와 어떤 일들을 했는지 알 수 있다.
+
+[[B급 프로그래머] 9월 2주 소식(빅데이터/인공지능, 암호화폐/블록체인, 읽을거리 부문)](http://jhrogue.blogspot.com/2019/09/b-9-2.html)
+
+### JavaScript
+
+[Typescript를 이용한 NodeJS 개발기01](https://blog.martinwork.co.kr/nodejs/2019/09/08/nodejs-with-typescript01.html)
+
+- `TypeScript`로 서버 개발을 하기 위한 소개를 하는 시리즈의 첫 글입니다. `왜 시도 하는가?` 그리고 어떤 것들이 필요한지를 설명합니다.
+
+### Network
+
+[네트워크 모니터링이 궁금할땐 ? Packetbeat !](https://taetaetae.github.io/2019/09/08/network-monitor-by-packetbeat/)
+
+- 자신이 운영하는 서비스의 `outbound`를 확인 하여, 어떤 작업이 제일 느린지? 찾는 것을 분석하기 위해 고군분투한 글이다. (`ElasticSearch`, `Kibana`, `filebeats`를 활용 하셨다.) 꾸준하게 토이 프로젝트를 위해 노력 하시는 모습이 보기 좋았다.
+
+### ElasticSearch
+
+[Elasticsearch 버전 업데이트 썰 (Nori 형태소 분석기 shallow dive)](https://www.youtube.com/watch?v=UgJQQ-1HHaw)
+
+- `ElasticSearch` 버전 업데이트를 하면서 겪은 경험기 공유이다. 사실 생각보다 많은 이슈가 생기곤 한다. 버전 업데이트가 빠른 대신 버그가 많다. (`Major` 버전은 그래서 한 두달 건너 뛰고 사용해야 하지 않을까? 생각 해보기도 합니다.)
+
+### Container
+
+[Kubernetes 로 내부 시스템 이전하며 겪은 일들 - 임찬식](https://www.youtube.com/watch?v=19Ox5HrLmpI)
+
+- `k8s 클러스터를` 구축 한 사례와 해당 구축을 통해 내부 시스템을 이전한 경험기이다. 보면서 느낀 점은 와 우리 사내 시스템과도 매우 유사한 점이 있다고 느꼈습니다. (다들 비슷하게 구축을 하는 것인지....)
+
+### Java
+
+[biggwang의 개발 블로그](https://biggwang.github.io/2019/08/31/Spring/IoC)
+
+- `Spring`을 학습하면서 궁금한 `IoC`, `DI`에 대한 부분을 스스로 이해하고, 설명하고자 쓴 글입니다.
+
+[Java 버전별 변경점](https://johngrib.github.io/wiki/java-enhancements/)
+
+- `Java`의 버전별 변경을 정리하는 `Section`인데, 현재 진행형이다.
+
+[Spring WebFlux와 Kotlin으로 만드는 Todo 서비스 - 1편 | Popit](https://www.popit.kr/spring-webflux%EC%99%80-kotlin%EC%9C%BC%EB%A1%9C-%EB%A7%8C%EB%93%9C%EB%8A%94-todo-%EC%84%9C%EB%B9%84%EC%8A%A4-1%ED%8E%B8/)
+
+[Spring WebFlux와 Kotlin으로 만드는 Todo 서비스 - 2편 | Popit](https://www.popit.kr/spring-webflux%EC%99%80-kotlin%EC%9C%BC%EB%A1%9C-%EB%A7%8C%EB%93%9C%EB%8A%94-todo-%EC%84%9C%EB%B9%84%EC%8A%A4-2%ED%8E%B8/)
+
+- 요즘 `WebFlux`와 `kotlin`에 관심이 많아져서 보고 있던 차에, 샘플 예제를 만들어 볼 수 있는 글을 찾았다.
+
+[Folding Things With Functional Programming - DZone Java](https://dzone.com/articles/folding-things-with-functional-programming?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed:%20dzone%2Fjava)
+
+- `Fold Function`에 대한 글인데, `FP`와 연관 되어 있다. 그런데, `Reduce`와 `Fold`와의 차이를 설명한 부분이 제일 인상적이다.
+
+[Java Joy: Combining Predicates - DZone Java](https://dzone.com/articles/java-joy-combining-predicates?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed:%20dzone%2Fjava)
+
+- `filter`를 쓰다보면, `predicate`를 조합해서 사용 하고 싶을 때가 있을때, 활용하면 좋을 예제이다.
+
+[Java GC 튜닝](https://johngrib.github.io/wiki/java-gc-tuning/)
+
+- Java GC 튜닝의 글인데, 대부분 영어이긴 하지만, 시간이 지나면 **종립님이 요약을 해주실 것만** 같다.
+
+[JDK 8에서 Perm 영역은 왜 삭제됐을까](https://johngrib.github.io/wiki/java8-why-permgen-removed/)
+
+- 사실 내가 가장 궁금했던 부분인데, 잘 정리 해주셔서 나도 궁금증이 풀리게 되었다. 중요한 부분은 어떻게 이런 발상을 했는지가 제일 신기한 부분이고, 이렇게 `Perm영역`을 제거 했을 때의 이슈나 장단점이 궁금 해졌다. 찾아 봐야겠다.
+
+### 일반적인
+
+[1990년대생의 퇴사를 막고 싶다면](https://ppss.kr/archives/202471)
+
+- `90년생이 온다` 라는 책이 있듯이 그에 대한 이야기를 말하는데, 결국은 교육적인 부분이 회사에서는 항상 걸림돌이 된다. 새로운 사람에 대한 교육이 제일 해결이 되지 않는 부분 같다. 그리고 메뉴얼의 부재가 제일 크지 않을까 싶다. 메뉴얼을 정확하게 작성하지 않는 부분도 있을 테고, 사실 이미 업무에 능숙한 사람이 메뉴얼을 작성하다 보면, 대다수의 내용이 빠지기 마련이다. 그렇기 때문에 중요한 부분이 누락 된 메뉴얼이 많다. 이러한 고민을 하는 회사, 조직 일수록 좋은 회사 아닐까? 생각 한다. **1990년생은 능력 향상을 위해서라면, 모든 것을 다시 시작 할 수 있는 용기를 가졌기 때문이다. 당신은 이를 요즘것들의 "끈기 부족"이라고 얕잡아 보지만, 우리가 봤을 땐 자신의 시간을 미래를 위해 현명하게 투자할 줄 아는 합리적인 선택일 뿐이다.**의 구절이 참 좋았다.

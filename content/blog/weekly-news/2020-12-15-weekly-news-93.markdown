@@ -1,0 +1,49 @@
+---
+layout: post
+title: '그냥 저냥 #위클리뉴스 #93'
+description: '그냥 저냥 #위클리뉴스 #93'
+date: 2020-12-15 21:12:90
+category: weekly-news
+tags: [weekly-news, programming]
+comments: true
+draft: false
+---
+
+### 🖥개발자들에게 도움이 되는
+
+[내 맘대로 위클리 뉴스 - 2020년 49주(2020.11.28 - 2020.12.4)](https://www.sangkon.com/sigamdream_weekly_2020_49/)
+
+- `React` 관련 보안 문제를 처리 하는 방법, `Java` 관련 글이 좋았고, `Django + React`를 이용한 튜토리얼도 좋았다.
+
+[백엔드 개발자가 회사에서 리액트 세미나를 진행하기까지](https://sogoagain.github.io/2020/12/11/%EB%B0%B1%EC%97%94%EB%93%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B0%80-%ED%9A%8C%EC%82%AC%EC%97%90%EC%84%9C-%EB%A6%AC%EC%95%A1%ED%8A%B8-%EC%84%B8%EB%AF%B8%EB%82%98%EB%A5%BC-%EC%A7%84%ED%96%89%ED%95%98%EA%B8%B0%EA%B9%8C%EC%A7%80/)
+
+- 백엔드 개발자가 리액트를 쓰면서 겪은 경험기를 토대로 회사에서 세미나를 진행 했던 이야기를 남겼는데, 대단하다는 생각이 들었다. 비싼 강의도 자진해서 듣고, 배움에 대한 열정이 이렇게 지닐 수 있다는 점이 참 놀랍고도 멋졌다.
+
+[New from Universe 2020: Dark mode, GitHub Sponsors for companies, and more - The GitHub Blog](https://github.blog/2020-12-08-new-from-universe-2020-dark-mode-github-sponsors-for-companies-and-more/)
+
+- `Github universe`에서 공개된 주요 기능에 대한 정리이다. `Auto-merge pull requests` 기능, `Dependency review` 기능 등이 기대 된다.
+
+[Free Online Tutorials and Courses](https://www.tutorialspoint.com/tutorialslibrary.htm)
+
+- **모든 튜토리얼**에 대한 모음집 페이지라고 생각하면 쉽다.
+
+### 💻Front-End
+
+[[A6] Statecharts: 복잡한 UI 상태를 지배하는 방법](https://www.youtube.com/watch?v=Hv_PhrfwerQ&feature=youtu.be)
+
+- `FSM`을 오랜만에 들어보긴 했지만, 이 모델을 `Reducer`에서 쓰는 방법이나, `statecharts`를 이용한 UI 상태 관리를 할 수 있다는 점이 신선하기도 하고, 놀라웠다. 여전히 쪼렙인지라, 영상 한 번 보고 이커머스 UI에 어떻게 접목시킬 수 있을까? 라는 질문에 답이 생각 나진 않는다.
+
+### 💻Back-End
+
+[긱뉴스 팟캐스트 최신 데이터 인프라 이해하기 #6 - Kafka, Pulsar, Kines](https://news.hada.io/podcast/data_infra_6_kafka_pulsar_kinesis)
+
+- `Kafka, Pulsar, Kinesis` 총 세가지 도구에 대해서 설명 해주는 영상인데, 20분정도이지만 짧지만 알차게 설명을 해준다.
+
+### 👍🏻일반적인
+
+[[책이벤트] 이타적인 인재만 성공하는 이유 | 조용민 구글 매니저 | 비전 창의성 역량 | 세바시 1302회](https://www.youtube.com/watch?v=5q9zIgylu1E)
+
+- 이타적인 인재의 위대함에 대해서 설명하는 세바시 영상인데, 시간 남을때 보면 도움이 된다. 총 3가지의 태도에 대해 설명 하는데, 개발자에게도 이 3가지의 마음이 중요하다고 생각 했다.
+  - 문제 해결을 위한 목적에 대한 집요함.
+  - 기회를 발견하는 창의적인 유연성.
+  - 기술의 가치를 높이는 사용자 친화적 배려심.

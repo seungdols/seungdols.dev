@@ -1,0 +1,74 @@
+---
+layout: post
+title: '그냥 저냥 #위클리뉴스 #51'
+description: '그냥 저냥 #위클리뉴스 #51'
+date: 2019-08-31 15:18:00
+category: weekly-news
+tags: [weekly-news, programming]
+comments: true
+draft: false
+---
+
+### 개발자들에게 도움이 되는
+
+[온라인 코딩 테스트 준비하기](https://blog.anyjava.net/123?fbclid=IwAR3uDAAlK3Y1KFl7sXvDNjvHEF6LwaE3n-0azjUZRHg9rw-fVCVn73XqaqI)
+
+- 결국에는 이직을 하려고 한다거나 하면 준비 해야 하는 과정이 경력자에게도 온라인 코딩 테스트는 중요하다. **내가 속한 회사도 경력직 채용에 코딩 테스트를 실시하고 있고, 우연히 며칠 전 문제들을 봤지만, 쉽진 않았다.** 그리고 요즘은 대다수가 코딩 테스트 서비스를 제휴 맺어서 사용하기에, 공간 복잡도, 시간 복잡도, 실제 외부 사이트들과 답안의 유사도도 분석한다고 봤다. 결국... 연습만이 살 길이고, 영어 해독 시간도 중요한 이슈가 된다. (`부지런한 개발자라면, 이렇게 영어 공부 하고, 알고리즘 잘 풀고 하다 보면 외국 회사 가지 않을까?`)
+
+[사람들이 잘 안알려주는 GitHub 팁](https://medium.com/@kkweon/%EC%82%AC%EB%9E%8C%EB%93%A4%EC%9D%B4-%EC%9E%98-%EC%95%88%EC%95%8C%EB%A0%A4%EC%A3%BC%EB%8A%94-github-%ED%8C%81-941e4d644402)
+
+- `suggestion`의 기능은 몰랐던 건데 알게 되어 좋았다. 기타 다른 팁들도 있으니 보면 좋겠다.
+
+[개발자가 공부로 살아남는 방법](https://evan-moon.github.io/2019/08/26/how-does-developer-study/)
+
+- `개발자가 공부를 왜 해야 하는지?`에 대해 시작하여, `어떻게 학습을 하고, 진행 했는지`에 대한 부분을 자세하게 남겨 주셨는데, 공감이 많이 가는 부분은 `무엇을 만들지 먼저 생각 해보자` 라는 부분인데, 사실 뭘 새로 배우던지 언어의 문법이나 라이브러리 이런 걸 공부 하려면, 실제로 써 봐야 알 수 있는 내용들이라고 생각 한다. 결국은 무엇인가 만들어 봐야 한다. 그래서 작은 프로그램이라도 만들어 봐야 한다.
+
+[Git 사용 중 자주 만나는 이슈 정리](https://parksb.github.io/article/28.html)
+
+- `git`을 혼자만 쓰다 보면, 이슈가 생길 일이 사실 크지 않는데, 사람들과 같이 쓰다 보면 이슈가 생긴다. 그래서 생각 보다 쉽지 않다. (잘 쓰는 것은 역시 뭐든 어렵다.) 그렇게 `Git` 사용 중 만난 이슈를 느낀 바를 정리 한 글이다.
+
+[내 맘대로 위클리 뉴스 - 2019년 35주(2019.8.18 - 2019.8.24)](https://www.sangkon.com/sigamdream_weekly_2019_35/)
+
+- `JavaScript`와 `Node.js`에서 활용 할 수 있는 테스트 기법에 관한 글이 나에게는 현재 상황상 가장 유익 했다. 그 외 파이썬 관련 글 타래도 좋은데, 내가 요즘은 파이썬을 전혀 안 쓰고 있어서 관심도가 떨어졌다.
+
+[진유림 - 패스트캠퍼스 인터뷰](https://milooy.wordpress.com/2019/08/27/%ec%a7%84%ec%9c%a0%eb%a6%bc-%ed%8c%a8%ec%8a%a4%ed%8a%b8%ec%ba%a0%ed%8d%bc%ec%8a%a4-%ec%9d%b8%ed%84%b0%eb%b7%b0/)
+
+- 진유림님의 인터뷰 영상이며, 이미 이쪽 업계에선 **핵인싸**시다. 해당 영상에서 가장 좋은 말은 `처음 하면 모른다.` 그게 당연하고, 하다 보면 알게 된다는 말이 공감이 많이 되었다.
+
+[인생의 방향](https://miryang.dev/2019/08/27/direction-in-life/)
+
+- **개발자의 고뇌**가 담긴 글이다. 뭐랄까...? 구독 하고 있는데, 이런 글이 올라와 궁금해서 다 읽게 되었는데, 결국 `우리는 사람이고 다 같은 고민을 하고 사는 구나` 싶었다. 내가 생각 하는 방향성이란 결국에는 나만이 알고 있다. 대신 많은 사람들과 이야기를 해봄으로써 그 방향을 알게 된다. 그런 점에서 이런 고뇌 글도 좋다고 생각 한다. (아마 나뿐만 아니라 다들 느끼지 않을까? 생각한다.)
+
+[개발자의 공부하기](https://devjang.github.io/2019/08/25/2019-08-25-learning-developer/)
+
+- 공부법에 관한 방법인데, [Bside Soft](http://www.bsidesoft.com/)의 Hika님이 강의 전에 해주신 말에 대한 이야기이다. 영상을 보기 어렵다면, 해당 글을 읽고 참고 해도 좋을 것 같고, 정말 많은 내용에 공감이 된다.
+
+[개발자가 조직문화에 대해 관심을 가져야 하는 이유](https://evan-moon.github.io/2019/08/06/developer-with-organizational-culture/)
+
+- 개발자가 조직문화에 대해 관심을 가져야 하는 이유에 대한 글인데, 내가 요즘 브런치에 쓰고 싶은 글이 이런 류의 글이다. 다시 한 번 예전에 읽었던 책을 다시 읽으면서 정리를 해봐야겠다고 생각 하는 요즘이다. `개발자가 조직 문화에 너무 관심이 없어도 문제가 된다.` 왜냐하면, 조직 문화는 나와 나의 동료가 같이 만들어 가는 것이다. 그런데, `왜 혼자만 관심 없다고 노력 하지 않는가?` 그건 협업에도 도움이 되지 않는 자세이다. 조직 문화를 만들어 가는 것도 하나의 노력이고, 하나의 업무이다. **꼭 읽어 보면 좋겠다.**
+
+### Data
+
+[[입 개발] Redis 버그 - Dataset 사이즈가 200GB가 넘어가면 죽는다구요?](https://charsyam.wordpress.com/2019/08/26/%ec%9e%85-%ea%b0%9c%eb%b0%9c-redis-%eb%b2%84%ea%b7%b8-dataset-%ec%82%ac%ec%9d%b4%ec%a6%88%ea%b0%80-200gb%ea%b0%80-%eb%84%98%ec%96%b4%ea%b0%80%eb%a9%b4-%ec%a3%bd%eb%8a%94%eb%8b%a4%ea%b5%ac%ec%9a%94/)
+
+- `Redis`의 버그에 관한 글인데, `Dataset` 사이즈가 200GB가 넘으면 `Redis process`가 죽는 이슈인데, 이에 대한 이슈의 원인과 해결 책에 대한 부분을 상세하게 정리 해주셨다.
+
+### Java
+
+[Composite Design Pattern In Java](https://www.javacodegeeks.com/2019/08/composite-design-pattern-in-java.html)
+
+- 요즘은 `Java`를 안 쓰다보니 보게 된 `Composite Pattern`인데, 사실 내가 이제까지 잘 써온걸까? 라는 생각이 들기도 하다. 이 글을 읽으면서 사색에 빠지게 되었는데, 요즘은 `Java`를 잘 쓰고 싶은 마음이 있는데, 쉽지 않은 것 같다. 아무래도 `Java`와 `Object` 공부를 해야겠다는 생각이 들었다. (이 글과는 관련 없지만, `Hika`님의 오브젝트 스터디 영상을 보면서 요즘 무릎을 탁 친다..)
+
+### Front-End
+
+[3 Essential Tools to Boost your React App's SEO](https://medium.com/@prestonwallace/3-ways-improve-react-seo-without-isomorphic-app-a6354595e400)
+
+- SEO를 돕는 세 가지 (`React-Router, React-Helmet, Google Search Console`) 해결법이라고 소개 하고 있다. 중요한건 나도, `React-Helmet`은 잘 모르는데, 확인 해봐야겠다.
+
+[CSS in JS in real-life](https://medium.com/warsawjs/css-in-js-in-real-life-e0b50bbbd740)
+
+- 요즘 드는 생각은 `React`를 작업하다 보니 내가 결국 마크업을 해야 비로소 완성 되는 느낌이 있다. (내가 마크업을 실무에서 하지 않으니 무언가 절반만 하는 듯한 느낌을 지울 수 없다.) 이런 류의 글을 읽다 보면 도대체 무엇이 정답인지는 상황 마다 다른 것 아닌가? 라는 생각이 든다. 그렇지만 최고는 `JSS`라는 것이다. 아직까지는 크게 와 닿지는 않고 있다.
+
+[How to automate versioning and publication of an npm package](https://itnext.io/how-to-automate-versioning-and-publication-of-an-npm-package-233e8757a526)
+
+- 나도 이런 고민을 잠시 했었는데, 이렇게 **자동화 하는 방법은 정말 좋다는 생각이 들었다.** 물론, 오픈 소스로 공개 하거나 할 일이 없는 회사 프로젝트라 이런 고민을 길게 하지 않았다. 그래서 고민을 하지 않았는데, 위 글을 사내 개발자분이 공유 해주셔서 읽게 되었다. 결국, 공개를 하지 않더라도 버저닝을 남기는 습관을 가지는 것이 좋지 않을까? 생각이 들었다. 물론, 수동으로 해도 된다. 그렇지만, 자동화가 뭐든 구색도 좋고 편리 하니까... (혹시 오픈 소스로 공개 할 수도 있으니까?)
